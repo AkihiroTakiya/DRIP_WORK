@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Requirements>
+   <Req Index="1">
+      <Name>Creep stability</Name>
+      <ID>CreepStability</ID>
+      <Description>When the vehicle goes from idle to creep, or from creep to drive modes, there will be a driveline chuggle introduced because of the manual transmission with little or no damping. The creep control strategy should ensure that the chuggle oscillations when starting the creep mode are minimized. The specifics of the requirement are given through the settling time, peak-to-peak damping ratio, and the maximum overshoot for a step input.</Description>
+      <Assumptions>
+         <Assumption Index="1">
+            <LHS>something</LHS>
+            <Operator>=</Operator>
+            <RHS>something_else</RHS>
+         </Assumption>
+      </Assumptions>
+      <Facts/>
+      <Recommendations>
+         <Recommendation Index="1">
+            <LHS>overshoot</LHS>
+            <Operator>&lt;</Operator>
+            <RHS>0.05</RHS>
+         </Recommendation>
+      </Recommendations>
+      <Enforces>
+         <Enforce Index="1">
+            <LHS>peak2peak</LHS>
+            <Operator>&lt;</Operator>
+            <RHS>0.05</RHS>
+         </Enforce>
+         <Enforce Index="2">
+            <LHS>settlingtime</LHS>
+            <Operator>&lt;</Operator>
+            <RHS>1.5</RHS>
+         </Enforce>
+         <Enforce Index="3">
+            <LHS>overshoot</LHS>
+            <Operator>&lt;</Operator>
+            <RHS>0.1</RHS>
+         </Enforce>
+      </Enforces>
+   </Req>
+</Requirements>

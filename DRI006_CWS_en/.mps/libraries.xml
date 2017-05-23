@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="DRIP">
+          <value>
+            <Library>
+              <option name="name" value="DRIP" />
+              <option name="path" value="${DRIP}" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="mbeddr">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr" />
+              <option name="path" value="${mbeddr}" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="plugins">
+          <value>
+            <Library>
+              <option name="name" value="plugins" />
+              <option name="path" value="${mbeddr.plugin}" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
