@@ -1,0 +1,3242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarksTool">
+    <option name="myTreeState">
+      <TreeState />
+    </option>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76849b43-a05d-4211-bcba-58df2a49b070" name="Default" comment="" />
+    <ignored path="TakiyaTest.iws" />
+    <ignored path=".mps/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConceptEditorHintSettings">
+    <option name="enabledHints">
+      <set>
+        <option value="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+        <option value="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+      </set>
+    </option>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DefaultSearchOptions3">
+    <search_options>
+      <finders>
+        <finders />
+      </finders>
+      <scope>
+        <scope_type scope_type="PROJECT" module="&lt;default&gt;" model="&lt;default&gt;" />
+      </scope>
+      <view>
+        <flags show_one_result="true" new_tab="false" />
+      </view>
+    </search_options>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Know" pinned="false" current-in-tab="false">
+        <entry file="mps://node://Mini4ku/Mini4Ku/Know">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="86" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209707" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209739" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209654" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209646" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </foldable>
+                <restoreAlways>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209654" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </restoreAlways>
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209468" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arch" pinned="false" current-in-tab="false">
+        <entry file="mps://node://Mini4ku/Mini4Ku/Arch">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="278" />
+                    <property name="caretXRelative" value="44" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719467031" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_amz5b0_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719466804" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_amz5b0_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719466774" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719466712" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </foldable>
+                <restoreAlways>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_amz5b0_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719466774" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </restoreAlways>
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209468" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Req" pinned="false" current-in-tab="false">
+        <entry file="mps://node://Mini4ku/Mini4Ku/Req">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="305" />
+                    <property name="caretXRelative" value="24" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840212030" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209073" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209062" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </foldable>
+                <restoreAlways>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209073" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </restoreAlways>
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209468" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Des" pinned="false" current-in-tab="true">
+        <entry file="mps://node://Mini4ku/Mini4Ku/Des">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="430" />
+                    <property name="caretXRelative" value="164" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="ReadOnlyModelAccessor_yqzqtw_d2c3a" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209468" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209455" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209447" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </foldable>
+                <restoreAlways>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209455" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </restoreAlways>
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209468" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="MPSBookmarkManager">
+    <option name="myBookmarkInfos">
+      <array>
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+      </array>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-538" />
+    <option name="y" value="58" />
+    <option name="width" value="1932" />
+    <option name="height" value="1167" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectPluginManager">
+    <option name="pluginsState">
+      <option name="ArchVisualization.plugin.ArchVisualization_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="MathematicaAnalysis.plugin.MathematicaAnalysis_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbddr.core.buildconfig.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="com.mbddr.core.buildconfig.pluginSolution.plugin.PluginSolution_ProjectPlugin$2" />
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="com.mbeddr.core.base.plugin.Base_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="com.mbeddr.core.base.plugin.Base_ProjectPlugin$2" />
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="com.mbeddr.core.base.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="com.mbeddr.core.base.pluginSolution.plugin.mbeddrPreferences_PreferencesComponent" />
+                  <params>
+                    <option name="mbeddrMenuEnabled" value="true" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="com.mbeddr.doc.aspect.ui.plugin.Ui_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.breadcrumb.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.ccmenu.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.contextactions.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.editingGuide.execution.plugin.Execution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.hyperlink.plugin.Hyperlink_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.intentions.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.jfreechart.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.jung.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.multilingual.concept.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.multilingual.settings.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.plantuml.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.projectview.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.projectview.vcs.plugin.Vcs_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.userstyles.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddt.core.expressions.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="com.mbeddt.core.expressions.pluginSolution.plugin.PluginSolution_ProjectPlugin$2" />
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="de.itemis.mps.editor.celllayout.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.editor.diagram.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.mouselistener.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.selection.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.tooltips.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.slisson.mps.conditionalEditor.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="info.engineeredmechatronics.dri.app.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="info.engineeredmechatronics.dri.helprt.plugin.Helprt_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="info.engineeredmechatronics.dri.req.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="info.engineeredmechatronics.dri.rt.plugin.Rt_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.editor.contextActionsTool.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.ide.actions.BehaviorDialogsPersistentOptions_PreferencesComponent" />
+                  <params>
+                    <option name="addReturnsOnImplement" value="false" />
+                    <option name="sortAlphabetically" value="false" />
+                    <option name="removeAttributes" value="true" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
+      <pane id="CustomProjectView_info.engineeredmechatronics.dri.req.pluginSolution.plugin.DripProjectView">
+        <subPane />
+      </pane>
+      <pane id="Favorites" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/Mini4ku/Mini4ku.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku) in IdeaFile{file://C:/DRIP_WORK/RC_Car/solutions/Mini4ku/models/Mini4Ku.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/Mini4ku/Mini4ku.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/Mini4ku/Mini4ku.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku) in IdeaFile{file://C:/DRIP_WORK/RC_Car/solutions/Mini4ku/models/Mini4Ku.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ハイレベルエンジニアリング" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/Mini4ku/Mini4ku.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku) in IdeaFile{file://C:/DRIP_WORK/RC_Car/solutions/Mini4ku/models/Mini4Ku.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ハイレベルエンジニアリング" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2878921315840209447" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
+      </pane>
+      <pane id="FileSystem" />
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
+      <pane id="CustomProjectView_info.engineeredmechatronics.dri.req.pluginSolution.plugin.DripProjectView">
+        <subPane />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="info.engineeredmechatronics.dri.app.pluginSolution.plugin.ExternalTools_Configurable" />
+    <property name="info.engineeredmechatronics.dri.app.pluginSolution.plugin.cmbxVersion" value="R2016b" />
+    <property name="info.engineeredmechatronics.dri.app.pluginSolution.plugin.txtInstalPath" value="&quot;C:\Program Files\MATLAB\R2016b\bin\matlab.exe&quot;" />
+    <property name="info.engineeredmechatronics.dri.app.pluginSolution.plugin.txtScriptsDir" value="../pscripts" />
+    <property name="info.engineeredmechatronics.dri.app.pluginSolution.plugin.txtMMAInstalPath" value="../ExtAnalysis/Wolfram Research/Mathematica/10.4" />
+    <property name="info.engineeredmechatronics.dri.app.pluginSolution.plugin.txtMMAScriptsDir" value="../plugins/drip-lang/lib" />
+    <property name="info.engineeredmechatronics.dri.app.pluginSolution.plugin.txtVizScriptsDir" value="../plugins/drip-lang/D3Files" />
+    <property name="info.engineeredmechatronics.dri.app.pluginSolution.plugin.openCDF" value="True" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Remote" default="true" selected="false">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\NEATdemo\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-538" y="58" width="1932" height="1167" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Help" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46314102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Diagram Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Architecture Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.281415" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Search" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Feasibility Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23382045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Tree" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Chart" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17521368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Graph Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs />
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="mps://node://Mini4ku/Mini4Ku/MappingChunk">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468738" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468737" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468736" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468735" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468718" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468717" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468716" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468719" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468713" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468734" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468715" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/MappingChunk">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468713" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468738" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468737" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468736" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468735" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468718" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468717" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468716" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468719" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468713" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468734" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468715" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Car_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468731" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468733" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Car_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468731" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468733" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Car_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468731" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468731" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468733" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468743" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468743" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468743" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468745" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468743" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Car_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468731" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468731" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468733" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468731" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468944" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468946" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468944" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468946" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468944" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468944" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468946" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/MappingChunk">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468999" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468998" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468997" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468996" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468980" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468979" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468978" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468981" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468939" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468938" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468937" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468936" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468919" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468918" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468917" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468920" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468914" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468995" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468977" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468935" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468916" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/MappingChunk">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468999" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468998" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468997" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468996" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468980" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468979" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468978" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468981" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468939" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468938" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468937" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468936" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468919" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468918" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468917" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468920" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468914" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468995" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468977" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468935" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468916" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/MappingChunk">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468914" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468999" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468998" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468997" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468996" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468980" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468979" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468978" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468981" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468939" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468938" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468937" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468936" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468919" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468918" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468917" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468920" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468914" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468995" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468977" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468935" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468916" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209070" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/DefaultDocConfig">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="31" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_8ipkgn_a1e0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209070" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209070" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Car_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468932" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469005" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468994" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468934" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Car_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468932" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469005" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468994" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468934" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469089" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469091" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469089" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469091" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469089" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469089" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469091" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Car_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469077" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469079" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Car_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469077" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469079" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Car_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469077" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469077" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469079" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719466774" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/MappingChunk">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469084" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469083" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469082" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469081" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469064" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469063" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469062" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469065" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469059" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469080" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469061" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/MappingChunk">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469084" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469083" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469082" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469081" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469064" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469063" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469062" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469065" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469059" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469080" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469061" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/MappingChunk">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="287" />
+                <property name="caretXRelative" value="16" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469080" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469084" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469083" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469082" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469081" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469064" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469063" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469062" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469065" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469059" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469080" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469061" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469080" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719466804" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_amz5b0_a_0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719466804" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/MappingChunk">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="287" />
+                <property name="caretXRelative" value="16" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469080" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469084" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469083" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469082" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469081" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469064" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469063" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469062" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469065" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469059" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469080" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469061" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469080" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469080" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469089" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469089" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469091" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469089" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="31" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_i0jo99_a7a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469091" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469089" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469091" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469091" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468247" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Matlab Settings">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="303" />
+                <property name="caretXRelative" value="32" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_isRecursive" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468247" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719468247" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469152" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469154" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469152" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469154" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/&lt;no name&gt;[DriDesignModule]" />
+    <entry file="mps://node://Mini4ku/Mini4Ku/&lt;no name&gt;[DriDesignModule]" />
+    <entry file="mps://node://Mini4ku/Mini4Ku/Req">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="305" />
+                <property name="caretXRelative" value="24" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840212030" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209073" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209062" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209073" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486430" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/&lt;no name&gt;[MappingChunk]" />
+    <entry file="mps://node://Mini4ku/Mini4Ku/&lt;no name&gt;[ReqMappingChunk]" />
+    <entry file="mps://node://Mini4ku/Mini4Ku/Know">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="95">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="384" />
+                <property name="caretXRelative" value="16" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719425061" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209739" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209654" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209646" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209654" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486430" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469269" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469271" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/&lt;no name&gt;[ArchitectureChunk]" />
+    <entry file="mps://node://Mini4ku/Mini4Ku/Mini4ku">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="163" />
+                <property name="caretXRelative" value="96" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487397" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486430" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/&lt;no name&gt;[DriTestsModule]" />
+    <entry file="mps://node://Mini4ku/Mini4Ku/TestCase">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="-4" />
+                <property name="caretXRelative" value="-69" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_xfcoxn_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719484776" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_setupSteps" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_g8b7hx_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nczv4m_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/4076713794479196204" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469494" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_g8b7hx_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486381" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/MapVal2DA">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="254" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ml0ye4_d0a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486210" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ml0ye4_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486216" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ml0ye4_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486214" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ml0ye4_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486212" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ml0ye4_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486210" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486186" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_bjerq4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486187" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ml0ye4_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486210" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_bjerq4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486187" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486381" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/MappingChunk">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487213" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487240" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487239" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487238" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487237" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487219" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487218" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487217" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_4zorod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487216" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nhkq3t_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487220" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487213" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487236" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ry76h4_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487215" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486381" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Motor_simulinkModule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487245" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487245" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_i0jo99_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487247" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486381" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Testing">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="31" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_variables" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486381" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_ivincg_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486510" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486381" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486381" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719486381" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Mini4ku">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="163" />
+                <property name="caretXRelative" value="96" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487397" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719487397" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Know">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="86" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209707" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209739" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209654" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209646" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209654" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209468" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Arch">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="278" />
+                <property name="caretXRelative" value="44" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719467031" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_amz5b0_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719466804" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_amz5b0_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719466774" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719466712" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_amz5b0_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719466774" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209468" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Req">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="305" />
+                <property name="caretXRelative" value="24" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840212030" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209073" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209062" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209073" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209468" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/Des">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="430" />
+                <property name="caretXRelative" value="164" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ReadOnlyModelAccessor_yqzqtw_d2c3a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209468" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209455" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209447" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_details" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209455" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2878921315840209468" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
