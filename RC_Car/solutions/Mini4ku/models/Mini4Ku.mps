@@ -20,6 +20,9 @@
       <concept id="8337440621611270429" name="com.mbeddr.ext.units.structure.UnitSpecification" flags="ng" index="CIsGf">
         <child id="8337440621611297539" name="components" index="CIi4h" />
       </concept>
+      <concept id="8337440621611400980" name="com.mbeddr.ext.units.structure.AnnotatedType" flags="ng" index="CIVk6">
+        <child id="8337440621611401032" name="specification" index="CIVlq" />
+      </concept>
     </language>
     <language id="634f42b3-1d27-40f1-8e93-833a7b65c70b" name="info.engineeredmechatronics.dri.architecture">
       <concept id="6676199307258032901" name="info.engineeredmechatronics.dri.architecture.structure.StepBlockActivity" flags="ng" index="22t6Nw">
@@ -143,9 +146,6 @@
       <concept id="1336438415758034063" name="info.engineeredmechatronics.dri.ltl.structure.UniversalityExpression" flags="ng" index="2pYBWB">
         <property id="4140076582864689708" name="isFalseOtherwise" index="2DT9Ir" />
       </concept>
-      <concept id="6032421301875043097" name="info.engineeredmechatronics.dri.ltl.structure.EndpointAtCondition" flags="ng" index="3itpKJ">
-        <child id="6032421301875043098" name="condition" index="3itpKG" />
-      </concept>
       <concept id="4354114542070706787" name="info.engineeredmechatronics.dri.ltl.structure.ConditionLowerReference" flags="ng" index="1z45TS" />
     </language>
     <language id="92f195b6-a209-4804-ad65-f5248ecd5873" name="com.mbeddr.mpsutil.margincell">
@@ -165,6 +165,24 @@
       </concept>
       <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
         <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
+    </language>
+    <language id="07bab6d5-73d6-4542-9a02-7248cf6bbad3" name="info.engineeredmechatronics.dri.arch.reqmap">
+      <concept id="1756983059028573221" name="info.engineeredmechatronics.dri.arch.reqmap.structure.ReqPortItemRef" flags="ng" index="2tDfbH">
+        <reference id="1756983059028573222" name="ref" index="2tDfbI" />
+        <reference id="1756983059028573223" name="portItem" index="2tDfbJ" />
+      </concept>
+      <concept id="1430000093699307299" name="info.engineeredmechatronics.dri.arch.reqmap.structure.ReqMappingChunk" flags="ng" index="Io9qx">
+        <child id="5151411048583977258" name="content" index="1HCUg$" />
+      </concept>
+      <concept id="1430000093699394034" name="info.engineeredmechatronics.dri.arch.reqmap.structure.HLReqMapping" flags="ng" index="IoyxK">
+        <reference id="1430000093699394047" name="req" index="IoyxX" />
+        <reference id="5151411048584102008" name="part" index="1HBrPQ" />
+        <child id="5151411048584102199" name="content" index="1HBrKT" />
+      </concept>
+      <concept id="5151411048584264612" name="info.engineeredmechatronics.dri.arch.reqmap.structure.ReqPortRef" flags="ng" index="1HB$qE">
+        <reference id="5151411048584345142" name="port" index="1HAgGS" />
+        <child id="1756983059028583290" name="content" index="2tDiQM" />
       </concept>
     </language>
     <language id="2374bc90-7e37-41f1-a9c4-c2e35194c36a" name="com.mbeddr.doc">
@@ -203,6 +221,12 @@
       <concept id="2779869593386072113" name="info.engineeredmechatronics.dri.arch.map.simulink.structure.HashAnnotation" flags="ng" index="2leUMr">
         <child id="6391069662017346901" name="hash" index="1jS7UE" />
       </concept>
+      <concept id="1756983059018273268" name="info.engineeredmechatronics.dri.arch.map.simulink.structure.HighlevelMapRef" flags="ng" index="2tiXWW">
+        <reference id="1756983059018273269" name="ref" index="2tiXWX" />
+      </concept>
+      <concept id="1756983059034494104" name="info.engineeredmechatronics.dri.arch.map.simulink.structure.RefHighlevel" flags="ng" index="2ugPDg">
+        <reference id="1756983059034494107" name="ref" index="2ugPDj" />
+      </concept>
       <concept id="7730638001777509007" name="info.engineeredmechatronics.dri.arch.map.simulink.structure.RefOptimizationParameter" flags="ng" index="2$njN2">
         <reference id="7730638001777509008" name="ref" index="2$njNt" />
       </concept>
@@ -213,6 +237,7 @@
         <property id="1291582663230805756" name="numberOfSimulations" index="3u04_E" />
         <reference id="1430000093702776163" name="scenario" index="Idojx" />
         <reference id="1430000093702777635" name="mapping" index="IdoEx" />
+        <child id="1756983059018277123" name="highlvlMaps" index="2tiYZb" />
         <child id="4731536795476610029" name="simResult" index="3hIK18" />
       </concept>
       <concept id="1673054872569204921" name="info.engineeredmechatronics.dri.arch.map.simulink.structure.ScenarioResult" flags="ng" index="3e3F8N">
@@ -288,6 +313,9 @@
         <child id="1316352544795179343" name="equations" index="1lXyr_" />
         <child id="8436985141612414008" name="timeStampforLoad" index="1K6blL" />
       </concept>
+      <concept id="5171671061747190907" name="info.engineeredmechatronics.dri.analysis.structure.BasedOnTests" flags="ng" index="1lnFGl">
+        <reference id="5171671061747190908" name="Results" index="1lnFGi" />
+      </concept>
       <concept id="5171671061748065271" name="info.engineeredmechatronics.dri.analysis.structure.Choice" flags="ng" index="1lr5ip">
         <reference id="3250972615105576974" name="ADref" index="1kYspg" />
         <reference id="5171671061748065386" name="choice" index="1lr5c4" />
@@ -334,12 +362,12 @@
       <concept id="1430000093700447887" name="info.engineeredmechatronics.dri.arch.indepmap.structure.UsePartRef" flags="ng" index="I4zWd">
         <reference id="1430000093700451193" name="ref" index="I4wFV" />
       </concept>
-      <concept id="1430000093699307299" name="info.engineeredmechatronics.dri.arch.indepmap.structure.MappingChunk" flags="ng" index="Io9qx">
+      <concept id="1430000093699307299" name="info.engineeredmechatronics.dri.arch.indepmap.structure.MappingChunk" flags="ng" index="Io9qy">
         <child id="1430000093699374217" name="contents" index="IopOb" />
         <child id="3329387042027765214" name="imports" index="3pVyo1" />
       </concept>
-      <concept id="1430000093699394034" name="info.engineeredmechatronics.dri.arch.indepmap.structure.PartMapping" flags="ng" index="IoyxK">
-        <reference id="1430000093699394047" name="part" index="IoyxX" />
+      <concept id="1430000093699394034" name="info.engineeredmechatronics.dri.arch.indepmap.structure.PartMapping" flags="ng" index="IoyxL">
+        <reference id="1430000093699394047" name="part" index="IoyxY" />
       </concept>
       <concept id="1430000093699465017" name="info.engineeredmechatronics.dri.arch.indepmap.structure.PortRef" flags="ng" index="IoNUV">
         <reference id="1430000093700111005" name="simulink" index="I7lGv" />
@@ -358,6 +386,28 @@
         <child id="5652920968054438510" name="note" index="3ajGZ5" />
       </concept>
     </language>
+    <language id="e401b447-8019-4ccd-a72c-bfb0230f5782" name="com.mbeddr.cc.var.fm">
+      <concept id="8473958930087782177" name="com.mbeddr.cc.var.fm.structure.RootFeature" flags="ng" index="28I2Iu" />
+      <concept id="6825476687691297416" name="com.mbeddr.cc.var.fm.structure.ConfigurationModel" flags="ng" index="Id4hE">
+        <reference id="6825476687691297418" name="configures" index="Id4hC" />
+        <child id="6825476687691297417" name="rootFeature" index="Id4hF" />
+      </concept>
+      <concept id="6825476687691297422" name="com.mbeddr.cc.var.fm.structure.SelectedFeature" flags="ng" index="Id4hG">
+        <reference id="6825476687691297425" name="feature" index="Id4hN" />
+        <child id="6825476687691297423" name="children" index="Id4hH" />
+      </concept>
+      <concept id="6825476687691297426" name="com.mbeddr.cc.var.fm.structure.Feature" flags="ng" index="Id4hK">
+        <child id="6825476687691297427" name="constraint" index="Id4hL" />
+        <child id="6825476687691297428" name="children" index="Id4hQ" />
+      </concept>
+      <concept id="6825476687691297434" name="com.mbeddr.cc.var.fm.structure.FeatureModel" flags="ng" index="Id4hS">
+        <child id="6825476687691297435" name="root" index="Id4hT" />
+      </concept>
+      <concept id="6825476687691337712" name="com.mbeddr.cc.var.fm.structure.VariabilitySupport" flags="ng" index="Idr$i">
+        <child id="6825476687691337713" name="contents" index="Idr$j" />
+      </concept>
+      <concept id="6825476687691317627" name="com.mbeddr.cc.var.fm.structure.OptionalConstraint" flags="ng" index="Idvup" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
@@ -366,9 +416,15 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
-      <concept id="7615572890648529894" name="com.mbeddr.core.expressions.structure.NotEqualsExpression" flags="ng" index="25Bbzn" />
       <concept id="3005510381523579442" name="com.mbeddr.core.expressions.structure.UnaryExpression" flags="ng" index="2aKSnQ">
         <child id="7254843406768839760" name="expression" index="1_9fRO" />
       </concept>
@@ -387,9 +443,11 @@
         <child id="318113533128716676" name="type" index="2C2TGm" />
       </concept>
       <concept id="22102029902365709" name="com.mbeddr.core.expressions.structure.AssignmentExpr" flags="ng" index="3pqW6w" />
+      <concept id="743779816742251347" name="com.mbeddr.core.expressions.structure.ITypeDecorator" flags="ng" index="1Ml8iu">
+        <child id="7336544617004013388" name="valueType" index="UxbcT" />
+      </concept>
       <concept id="8860443239512147451" name="com.mbeddr.core.expressions.structure.LessEqualsExpression" flags="ng" index="3Tl9Jl" />
       <concept id="8860443239512147447" name="com.mbeddr.core.expressions.structure.GreaterEqualsExpression" flags="ng" index="3Tl9Jp" />
-      <concept id="8860443239512147445" name="com.mbeddr.core.expressions.structure.GreaterExpression" flags="ng" index="3Tl9Jr" />
       <concept id="8860443239512129322" name="com.mbeddr.core.expressions.structure.EqualsExpression" flags="ng" index="3TlM44" />
       <concept id="8860443239512128054" name="com.mbeddr.core.expressions.structure.Type" flags="ng" index="3TlMgo">
         <property id="2941277002445651368" name="const" index="2c7vTL" />
@@ -405,12 +463,14 @@
       <concept id="7646330377697706962" name="info.engineeredmechatronics.dri.simulink.structure.SimulinkModel" flags="ng" index="7VBG_">
         <property id="3694205961100949226" name="simulinkModelName" index="25Mg9l" />
         <property id="7646330377697761636" name="isLibrary" index="7Ui6j" />
+        <property id="1206692523646520377" name="isNotSync" index="3DFghd" />
         <property id="3787840013110090888" name="modelFormat" index="1VSg3$" />
       </concept>
       <concept id="6589921059109441985" name="info.engineeredmechatronics.dri.simulink.structure.ISimulinkObject" flags="ng" index="29ooI8">
         <property id="6589921059109441986" name="isInSimulink" index="29ooIb" />
       </concept>
       <concept id="2519742571052782396" name="info.engineeredmechatronics.dri.simulink.structure.ChildBlockRef" flags="ng" index="2bW3YS">
+        <reference id="2519742571052783548" name="port" index="2bW3GS" />
         <reference id="2519742571052783545" name="childBlock" index="2bW3GX" />
       </concept>
       <concept id="4940641632735543952" name="info.engineeredmechatronics.dri.simulink.structure.SimulinkModelRef" flags="ng" index="H9uRN">
@@ -441,6 +501,10 @@
         <property id="1007050463763170675" name="rootDir" index="2AxGpW" />
         <child id="491045946649755166" name="searchPath" index="3kDbmL" />
       </concept>
+      <concept id="2567385276591558009" name="info.engineeredmechatronics.dri.simulink.structure.SimulinkDependency" flags="ng" index="1nrY8R">
+        <child id="2567385276591558013" name="output" index="1nrY8N" />
+        <child id="2567385276591558010" name="input" index="1nrY8O" />
+      </concept>
       <concept id="4002673248398666550" name="info.engineeredmechatronics.dri.simulink.structure.AbstractPort" flags="ng" index="3PjF4E">
         <property id="1007050463761266908" name="index" index="2AA3Jj" />
         <property id="954173357282623112" name="dataType" index="3zLh$k" />
@@ -456,7 +520,7 @@
       </concept>
     </language>
     <language id="298ed6a7-1355-4e59-a954-2b23ec4d1bb6" name="info.engineeredmechatronics.dri.req">
-      <concept id="4036319586154477763" name="info.engineeredmechatronics.dri.req.structure.MaximizeGoal" flags="ng" index="4GTI4" />
+      <concept id="4036319586154477746" name="info.engineeredmechatronics.dri.req.structure.MinimizeGoal" flags="ng" index="4GTJP" />
       <concept id="6944297619196489827" name="info.engineeredmechatronics.dri.req.structure.ElementAlias" flags="ng" index="6$MA7">
         <reference id="6944297619196489831" name="category" index="6$MA3" />
       </concept>
@@ -527,6 +591,7 @@
       </concept>
       <concept id="1027522862656479418" name="info.engineeredmechatronics.dri.req.structure.DesignChoice" flags="ng" index="1PuhSz">
         <reference id="2750242674735910364" name="from" index="fUXVS" />
+        <reference id="1027522862656479708" name="child" index="1PuhX5" />
       </concept>
       <concept id="63721317923263965" name="info.engineeredmechatronics.dri.req.structure.DesignExplorationData" flags="ng" index="1RzvvI">
         <reference id="63721317923264083" name="designReq" index="1Rzvhw" />
@@ -630,7 +695,17 @@
               <property role="2hmy$m" value="30" />
             </node>
             <node concept="vMb$X" id="2vNYUVYXbKa" role="3TlMhI">
-              <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+              <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
+            </node>
+          </node>
+        </node>
+        <node concept="vNyck" id="3DzEEzMnALr" role="3faCKd">
+          <node concept="3Tl9Jp" id="3DzEEzMnB08" role="vMImV">
+            <node concept="vMb$X" id="3DzEEzMnALG" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+            </node>
+            <node concept="3TlMh9" id="3DzEEzMnAMb" role="3TlMhJ">
+              <property role="2hmy$m" value="0.5" />
             </node>
           </node>
         </node>
@@ -674,8 +749,15 @@
       </node>
     </node>
     <node concept="vOfru" id="2vNYUVYXbiU" role="2YIGrh">
-      <property role="TrG5h" value="速さ" />
+      <property role="TrG5h" value="要求最高速度" />
       <node concept="2fgwQN" id="2vNYUVYXbiQ" role="vOftS">
+        <property role="2caQfQ" value="false" />
+        <property role="2c7vTL" value="false" />
+      </node>
+    </node>
+    <node concept="vOfru" id="3DzEEzMnxkt" role="2YIGrh">
+      <property role="TrG5h" value="速さ" />
+      <node concept="2fgwQN" id="3DzEEzMnxkp" role="vOftS">
         <property role="2caQfQ" value="false" />
         <property role="2c7vTL" value="false" />
       </node>
@@ -697,6 +779,56 @@
     <node concept="vOfru" id="78NQ33Cmlfp" role="2YIGrh">
       <property role="TrG5h" value="ステアリング角度" />
       <node concept="2fgwQN" id="78NQ33Cmlfn" role="vOftS">
+        <property role="2caQfQ" value="false" />
+        <property role="2c7vTL" value="false" />
+      </node>
+    </node>
+    <node concept="vOfru" id="3DzEEzMnaFr" role="2YIGrh">
+      <property role="TrG5h" value="ぼくのチューニングによる速さへの影響度" />
+      <node concept="2fgwQN" id="3DzEEzMnaFn" role="vOftS">
+        <property role="2caQfQ" value="false" />
+        <property role="2c7vTL" value="false" />
+      </node>
+      <node concept="ToRLv" id="3DzEEzMnqc_" role="Tn_Of">
+        <node concept="3TlMh9" id="3DzEEzMnqcV" role="ToRLu">
+          <property role="2hmy$m" value="0" />
+        </node>
+        <node concept="3TlMh9" id="3DzEEzMnqex" role="ToRLs">
+          <property role="2hmy$m" value="1" />
+        </node>
+      </node>
+    </node>
+    <node concept="vOfru" id="3DzEEzMnb8s" role="2YIGrh">
+      <property role="TrG5h" value="トータルでの速さへの影響度" />
+      <node concept="2fgwQN" id="3DzEEzMnb8t" role="vOftS">
+        <property role="2caQfQ" value="false" />
+        <property role="2c7vTL" value="false" />
+      </node>
+    </node>
+    <node concept="vOfru" id="3DzEEzMnbu3" role="2YIGrh">
+      <property role="TrG5h" value="テスト時間" />
+      <node concept="CIVk6" id="3DzEEzMnclM" role="vOftS">
+        <node concept="2fgwQN" id="3DzEEzMnclL" role="UxbcT">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="CIsGf" id="3DzEEzMnclN" role="CIVlq">
+          <node concept="CIsvn" id="3DzEEzMncz2" role="CIi4h">
+            <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="vOfru" id="3DzEEzMnbMs" role="2YIGrh">
+      <property role="TrG5h" value="移動距離" />
+      <node concept="2fgwQN" id="3DzEEzMnbMo" role="vOftS">
+        <property role="2caQfQ" value="false" />
+        <property role="2c7vTL" value="false" />
+      </node>
+    </node>
+    <node concept="vOfru" id="3DzEEzMnt3q" role="2YIGrh">
+      <property role="TrG5h" value="テスト時間内での要求移動距離" />
+      <node concept="2fgwQN" id="3DzEEzMnt3r" role="vOftS">
         <property role="2caQfQ" value="false" />
         <property role="2c7vTL" value="false" />
       </node>
@@ -789,9 +921,14 @@
         <node concept="1$WMy3" id="2vNYUVYXb9g" role="22Mr8z" />
         <node concept="1PuhSz" id="2vNYUVYXbhW" role="3faCKd">
           <ref role="fUXVS" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
+          <ref role="1PuhX5" node="2vNYUVYXbe_" resolve="hiperminimotor" />
         </node>
         <node concept="1PuhSz" id="7UBUYoGZt6C" role="3faCKd">
           <ref role="fUXVS" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
+          <ref role="1PuhX5" node="2vNYUVYXbc3" resolve="avante" />
+        </node>
+        <node concept="1lnFGl" id="3DzEEzMnj$t" role="3faCKd">
+          <ref role="1lnFGi" node="2vNYUVYXcqQ" resolve="Analysis" />
         </node>
       </node>
       <node concept="3fbQ3u" id="7UBUYoGZs6N" role="3fbPAY">
@@ -827,7 +964,26 @@
               </node>
             </node>
             <node concept="vMb$X" id="78NQ33CmvIV" role="3TlMhI">
-              <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+              <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
+            </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="3DzEEzMnIu5" role="lGtFl">
+          <property role="3V$3am" value="additionalData" />
+          <property role="3V$3ak" value="e865cad2-7cc8-437a-951a-665bcbcb8b1a/8745401669462952101/8745401669463270518" />
+          <node concept="3x77Xy" id="3DzEEzMncZy" role="8Wnug">
+            <node concept="3pqW6w" id="3DzEEzMnd0w" role="vMImV">
+              <node concept="2BOcij" id="3DzEEzMnd1x" role="3TlMhJ">
+                <node concept="vMb$X" id="3DzEEzMnd1Y" role="3TlMhJ">
+                  <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+                </node>
+                <node concept="vMb$X" id="3DzEEzMnd0N" role="3TlMhI">
+                  <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+                </node>
+              </node>
+              <node concept="vMb$X" id="3DzEEzMncZQ" role="3TlMhI">
+                <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+              </node>
             </node>
           </node>
         </node>
@@ -1146,11 +1302,17 @@
       <node concept="3nttz5" id="7UBUYoGZ_86" role="3nuBLr">
         <ref role="3ntty9" node="7UBUYoGZ_6Q" resolve="TestCase" />
       </node>
+      <node concept="3nttz5" id="7H4HPFQGBGS" role="3nuBLr">
+        <ref role="3ntty9" node="7H4HPFQG$Vm" resolve="ProductLine" />
+      </node>
       <node concept="3nttz5" id="7UBUYoGZC_5" role="3nuBLr">
         <ref role="3ntty9" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
       </node>
       <node concept="3nttz5" id="7UBUYoGZDgs" role="3nuBLr">
         <ref role="3ntty9" node="7UBUYoGZDeH" resolve="Testing" />
+      </node>
+      <node concept="3nttz5" id="7H4HPFQG$RK" role="3nuBLr">
+        <ref role="3ntty9" node="7H4HPFQG$Rc" resolve="MapDA2Valiables" />
       </node>
       <node concept="3nttz5" id="78NQ33CmUbc" role="3nuBLr">
         <ref role="3ntty9" node="3gufdqYQBdW" resolve="MappingChunk" />
@@ -1170,2227 +1332,2890 @@
     </node>
   </node>
   <node concept="3L8hhE" id="2vNYUVYXcqQ">
-    <property role="2MCLRb" value="false" />
+    <property role="2MCLRb" value="true" />
     <property role="TrG5h" value="Analysis" />
     <property role="3GE5qa" value="ハイレベルエンジニアリング" />
     <node concept="1c1bjO" id="2vNYUVYXcqR" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000,dripReqdrip0 == dripReqdrip1 + dripReqdrip2,dripReqdrip3 &gt;= dripReqdrip0,dripReqdrip4 &gt;= 30,dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5)" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000,dripReqdrip0 == dripReqdrip1 + dripReqdrip2,dripReqdrip3 &gt;= dripReqdrip0,dripReqdrip4 &gt;= 30,dripReqdrip10 == 10,dripReqdrip11 &gt;= 120,dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5),dripReqdrip9 == dripReqdrip8 * dripReqdrip5" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3,dripReqdrip2,dripReqdrip1,dripReqdrip0,dripReqdrip4,dripReqdrip6,dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3,dripReqdrip2,dripReqdrip1,dripReqdrip0,dripReqdrip4,dripReqdrip10,dripReqdrip11,dripReqdrip6,dripReqdrip5,dripReqdrip8,dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="3U5fAp" id="78NQ33CmIO_" role="1K6blL">
-        <property role="3U5fAr" value="1495698582625" />
+      <node concept="3U5fAp" id="3DzEEzMnfKw" role="1K6blL">
+        <property role="3U5fAr" value="1495773567454" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmIOA" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmIOB" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmIOC" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMnfKx" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMnfKy" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMnfKz" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmIOD" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnfK$" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmIOE" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmIOF" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMnfK_" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnfKA" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmIOG" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMnfKB" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmIOH" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnfKC" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmIOI" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmIOJ" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmIOK" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMnfKD" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMnfKE" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMnfKF" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmIOL" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMnfKG" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmIOM" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMnfKH" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmION" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnfKI" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmIOO" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmIOP" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMnfKJ" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMnfKK" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmIOQ" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMnfKL" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmIOR" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnfKM" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmIOS" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmIOT" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMnfKN" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnfKO" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmIOU" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMnfKP" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmIOV" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnfKQ" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMnfKR" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMnfKS" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMnfKT" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMnfKU" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMnfKV" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMnfKW" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMnfKX" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMnfKY" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnfKZ" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMnfL0" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMnfL1" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmIOW" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmIOX" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmIOY" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMnfL2" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMnfL3" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMnfL4" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmIOZ" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmIP0" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmIP1" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMnfL5" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMnfL6" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMnfL7" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmIP2" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMnfL8" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmIP3" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMnfL9" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmIP4" role="1lr5ch">
+      <node concept="2KVQ5I" id="3DzEEzMnfLa" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMnfLb" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMnfLc" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMnfLd" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMnfLe" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMnfLf" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="1lr5ip" id="3DzEEzMnfLg" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmIP5" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMnfLh" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJ6R" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMng79" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_1" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 40, dripReqdrip2 == 3000, dripReqdrip1 == 11599, dripReqdrip5 == 0.15" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 40, dripReqdrip2 == 3000, dripReqdrip1 == 11599, dripReqdrip5 == 0.15" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="True" />
       <property role="3EuqCt" value="Feasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJ6W" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng7e" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJ6X" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ6Y" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMng7f" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng7g" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ6Z" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng7h" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ70" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng7i" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJ71" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJ72" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJ73" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMng7j" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMng7k" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMng7l" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJ74" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMng7m" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ75" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng7n" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ76" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng7o" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJ77" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJ78" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMng7p" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMng7q" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ79" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng7r" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ7a" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng7s" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJ7b" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ7c" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMng7t" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng7u" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ7d" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMng7v" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ7e" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng7w" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMng7x" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMng7y" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMng7z" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMng7$" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMng7_" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMng7A" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMng7B" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMng7C" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng7D" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMng7E" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMng7F" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJ7f" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJ7g" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJ7h" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMng7G" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMng7H" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMng7I" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJ7i" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJ7j" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJ7k" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMng7J" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMng7K" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMng7L" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJ7l" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMng7M" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ7m" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMng7N" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJ7_" role="1K6blL">
-        <property role="3U5fAr" value="1495698583694" />
+      <node concept="2KVQ5I" id="3DzEEzMng7O" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMng7P" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMng7Q" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMng7R" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMng7S" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMng7T" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMng88" role="1K6blL">
+        <property role="3U5fAr" value="1495773569017" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJ7A" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJ7B" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJ7C" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMng89" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMng8a" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMng8b" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ7D" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng8c" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbP1" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbe_" resolve="hiperminimotor" />
-        <node concept="3pqW6w" id="78NQ33CmJ7E" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ7F" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMng8d" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng8e" role="3TlMhJ">
             <property role="2hmy$m" value="40" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ7G" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng8f" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ7H" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng8g" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbXr" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbe_" resolve="hiperminimotor" />
-        <node concept="3pqW6w" id="78NQ33CmJ7I" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ7J" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMng8h" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng8i" role="3TlMhJ">
             <property role="2hmy$m" value="3000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ7K" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng8j" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ7L" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng8k" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZo8P" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbc3" resolve="avante" />
-        <node concept="3pqW6w" id="78NQ33CmJ7M" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ7N" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMng8l" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng8m" role="3TlMhJ">
             <property role="2hmy$m" value="11599" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ7O" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng8n" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ7P" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng8o" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZqfr" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbc3" resolve="avante" />
-        <node concept="3pqW6w" id="78NQ33CmJ7Q" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ7R" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMng8p" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng8q" role="3TlMhJ">
             <property role="2hmy$m" value="0.15" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ7S" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng8r" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJ7T" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMng8s" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="2vNYUVYXbe_" resolve="hiperminimotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJ7U" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMng8t" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="2vNYUVYXbc3" resolve="avante" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJ7V" role="UCwlx">
-        <property role="3U5fAr" value="1495698583694" />
+      <node concept="3U5fAp" id="3DzEEzMng8u" role="UCwlx">
+        <property role="3U5fAr" value="1495773569027" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJ7W" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJ7X" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJ7Y" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMng8v" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMng8w" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMng8x" role="19SJt6" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJ7Z" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMng8y" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_2" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 50, dripReqdrip2 == 4000, dripReqdrip1 == 11599, dripReqdrip5 == 0.15" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 50, dripReqdrip2 == 4000, dripReqdrip1 == 11599, dripReqdrip5 == 0.15" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="False" />
       <property role="3EuqCt" value="Infeasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJ84" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng8B" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJ85" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ86" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMng8C" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng8D" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ87" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng8E" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ88" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng8F" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJ89" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJ8a" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJ8b" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMng8G" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMng8H" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMng8I" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJ8c" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMng8J" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ8d" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng8K" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ8e" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng8L" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJ8f" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJ8g" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMng8M" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMng8N" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ8h" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng8O" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ8i" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng8P" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJ8j" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ8k" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMng8Q" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng8R" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ8l" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMng8S" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ8m" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng8T" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMng8U" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMng8V" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMng8W" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMng8X" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMng8Y" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMng8Z" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMng90" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMng91" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng92" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMng93" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMng94" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJ8n" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJ8o" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJ8p" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMng95" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMng96" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMng97" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJ8q" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJ8r" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJ8s" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMng98" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMng99" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMng9a" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJ8t" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMng9b" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ8u" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMng9c" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJ8H" role="1K6blL">
-        <property role="3U5fAr" value="1495698584380" />
+      <node concept="2KVQ5I" id="3DzEEzMng9d" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMng9e" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMng9f" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMng9g" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMng9h" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMng9i" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMng9x" role="1K6blL">
+        <property role="3U5fAr" value="1495773570684" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJ8I" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJ8J" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJ8K" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMng9y" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMng9z" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMng9$" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ8L" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng9_" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbS_" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJ8M" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ8N" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMng9A" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng9B" role="3TlMhJ">
             <property role="2hmy$m" value="50" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ8O" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng9C" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ8P" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng9D" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXc9K" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJ8Q" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ8R" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMng9E" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng9F" role="3TlMhJ">
             <property role="2hmy$m" value="4000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ8S" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng9G" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ8T" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng9H" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZo8P" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbc3" resolve="avante" />
-        <node concept="3pqW6w" id="78NQ33CmJ8U" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ8V" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMng9I" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng9J" role="3TlMhJ">
             <property role="2hmy$m" value="11599" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ8W" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng9K" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ8X" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMng9L" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZqfr" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbc3" resolve="avante" />
-        <node concept="3pqW6w" id="78NQ33CmJ8Y" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ8Z" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMng9M" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMng9N" role="3TlMhJ">
             <property role="2hmy$m" value="0.15" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ90" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMng9O" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJ91" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMng9P" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJ92" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMng9Q" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="2vNYUVYXbc3" resolve="avante" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJ93" role="UCwlx">
-        <property role="3U5fAr" value="1495698584380" />
+      <node concept="3U5fAp" id="3DzEEzMng9R" role="UCwlx">
+        <property role="3U5fAr" value="1495773570694" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJ94" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJ95" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJ96" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMng9S" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMng9T" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMng9U" role="19SJt6" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJ97" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMng9V" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_3" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 30, dripReqdrip2 == 0, dripReqdrip1 == 11599, dripReqdrip5 == 0.15" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 30, dripReqdrip2 == 0, dripReqdrip1 == 11599, dripReqdrip5 == 0.15" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="False" />
       <property role="3EuqCt" value="Infeasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJ9c" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnga0" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJ9d" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ9e" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMnga1" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnga2" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ9f" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMnga3" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ9g" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnga4" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJ9h" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJ9i" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJ9j" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMnga5" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMnga6" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMnga7" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJ9k" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMnga8" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ9l" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMnga9" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ9m" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngaa" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJ9n" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJ9o" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngab" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMngac" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ9p" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngad" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ9q" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngae" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJ9r" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ9s" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngaf" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngag" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ9t" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngah" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ9u" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngai" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMngaj" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMngak" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMngal" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMngam" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMngan" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngao" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngap" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMngaq" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngar" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngas" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngat" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJ9v" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJ9w" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJ9x" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMngau" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngav" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngaw" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJ9y" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJ9z" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJ9$" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMngax" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMngay" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMngaz" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJ9_" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMnga$" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ9A" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMnga_" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJ9P" role="1K6blL">
-        <property role="3U5fAr" value="1495698585088" />
+      <node concept="2KVQ5I" id="3DzEEzMngaA" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMngaB" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngaC" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngaD" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMngaE" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngaF" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMngaU" role="1K6blL">
+        <property role="3U5fAr" value="1495773571334" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJ9Q" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJ9R" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJ9S" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngaV" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngaW" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngaX" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ9T" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngaY" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZotK" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZosY" resolve="normalmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJ9U" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ9V" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngaZ" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngb0" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJ9W" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngb1" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJ9X" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngb2" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZphv" resolve="fact_1" />
         <ref role="3tO4an" node="7UBUYoGZosY" resolve="normalmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJ9Y" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJ9Z" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngb3" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngb4" role="3TlMhJ">
             <property role="2hmy$m" value="0" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJa0" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngb5" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJa1" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngb6" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZo8P" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbc3" resolve="avante" />
-        <node concept="3pqW6w" id="78NQ33CmJa2" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJa3" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngb7" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngb8" role="3TlMhJ">
             <property role="2hmy$m" value="11599" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJa4" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngb9" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJa5" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngba" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZqfr" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbc3" resolve="avante" />
-        <node concept="3pqW6w" id="78NQ33CmJa6" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJa7" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngbb" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngbc" role="3TlMhJ">
             <property role="2hmy$m" value="0.15" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJa8" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngbd" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJa9" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngbe" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="7UBUYoGZosY" resolve="normalmotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJaa" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngbf" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="2vNYUVYXbc3" resolve="avante" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJab" role="UCwlx">
-        <property role="3U5fAr" value="1495698585088" />
+      <node concept="3U5fAp" id="3DzEEzMngbg" role="UCwlx">
+        <property role="3U5fAr" value="1495773571344" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJac" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJad" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJae" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngbh" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngbi" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngbj" role="19SJt6" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJaf" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMngbk" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_4" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 40, dripReqdrip2 == 3000, dripReqdrip1 == 5109, dripReqdrip5 == 0.2" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 40, dripReqdrip2 == 3000, dripReqdrip1 == 5109, dripReqdrip5 == 0.2" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="True" />
       <property role="3EuqCt" value="Feasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJak" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngbp" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJal" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJam" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMngbq" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngbr" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJan" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngbs" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJao" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngbt" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJap" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJaq" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJar" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngbu" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMngbv" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngbw" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJas" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMngbx" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJat" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngby" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJau" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngbz" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJav" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJaw" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngb$" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMngb_" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJax" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngbA" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJay" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngbB" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJaz" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJa$" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngbC" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngbD" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJa_" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngbE" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJaA" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngbF" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMngbG" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMngbH" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMngbI" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMngbJ" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMngbK" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngbL" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngbM" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMngbN" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngbO" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngbP" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngbQ" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJaB" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJaC" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJaD" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMngbR" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngbS" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngbT" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJaE" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJaF" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJaG" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMngbU" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMngbV" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMngbW" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJaH" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMngbX" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJaI" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngbY" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJaX" role="1K6blL">
-        <property role="3U5fAr" value="1495698585807" />
+      <node concept="2KVQ5I" id="3DzEEzMngbZ" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMngc0" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngc1" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngc2" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMngc3" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngc4" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMngcj" role="1K6blL">
+        <property role="3U5fAr" value="1495773572001" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJaY" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJaZ" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJb0" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngck" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngcl" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngcm" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJb1" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngcn" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbP1" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbe_" resolve="hiperminimotor" />
-        <node concept="3pqW6w" id="78NQ33CmJb2" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJb3" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngco" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngcp" role="3TlMhJ">
             <property role="2hmy$m" value="40" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJb4" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngcq" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJb5" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngcr" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbXr" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbe_" resolve="hiperminimotor" />
-        <node concept="3pqW6w" id="78NQ33CmJb6" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJb7" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngcs" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngct" role="3TlMhJ">
             <property role="2hmy$m" value="3000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJb8" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngcu" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJb9" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngcv" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZom_" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbch" resolve="glasshopper" />
-        <node concept="3pqW6w" id="78NQ33CmJba" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJbb" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngcw" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngcx" role="3TlMhJ">
             <property role="2hmy$m" value="5109" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJbc" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngcy" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJbd" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngcz" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrug" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbch" resolve="glasshopper" />
-        <node concept="3pqW6w" id="78NQ33CmJbe" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJbf" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngc$" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngc_" role="3TlMhJ">
             <property role="2hmy$m" value="0.2" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJbg" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngcA" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJbh" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngcB" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="2vNYUVYXbe_" resolve="hiperminimotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJbi" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngcC" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="2vNYUVYXbch" resolve="glasshopper" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJbj" role="UCwlx">
-        <property role="3U5fAr" value="1495698585807" />
+      <node concept="3U5fAp" id="3DzEEzMngcD" role="UCwlx">
+        <property role="3U5fAr" value="1495773572011" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJbk" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJbl" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJbm" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngcE" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngcF" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngcG" role="19SJt6" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJbn" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMngcH" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_5" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 50, dripReqdrip2 == 4000, dripReqdrip1 == 5109, dripReqdrip5 == 0.2" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 50, dripReqdrip2 == 4000, dripReqdrip1 == 5109, dripReqdrip5 == 0.2" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="True" />
       <property role="3EuqCt" value="Feasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJbs" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngcM" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJbt" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJbu" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMngcN" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngcO" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJbv" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngcP" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJbw" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngcQ" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJbx" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJby" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJbz" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngcR" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMngcS" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngcT" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJb$" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMngcU" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJb_" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngcV" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJbA" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngcW" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJbB" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJbC" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngcX" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMngcY" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJbD" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngcZ" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJbE" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngd0" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJbF" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJbG" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngd1" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngd2" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJbH" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngd3" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJbI" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngd4" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMngd5" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMngd6" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMngd7" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMngd8" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMngd9" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngda" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngdb" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMngdc" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngdd" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngde" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngdf" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJbJ" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJbK" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJbL" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMngdg" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngdh" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngdi" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJbM" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJbN" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJbO" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMngdj" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMngdk" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMngdl" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJbP" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMngdm" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJbQ" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngdn" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJc5" role="1K6blL">
-        <property role="3U5fAr" value="1495698586513" />
+      <node concept="2KVQ5I" id="3DzEEzMngdo" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMngdp" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngdq" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngdr" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMngds" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngdt" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMngdG" role="1K6blL">
+        <property role="3U5fAr" value="1495773572662" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJc6" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJc7" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJc8" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngdH" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngdI" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngdJ" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJc9" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngdK" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbS_" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJca" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJcb" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngdL" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngdM" role="3TlMhJ">
             <property role="2hmy$m" value="50" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJcc" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngdN" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJcd" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngdO" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXc9K" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJce" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJcf" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngdP" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngdQ" role="3TlMhJ">
             <property role="2hmy$m" value="4000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJcg" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngdR" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJch" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngdS" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZom_" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbch" resolve="glasshopper" />
-        <node concept="3pqW6w" id="78NQ33CmJci" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJcj" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngdT" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngdU" role="3TlMhJ">
             <property role="2hmy$m" value="5109" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJck" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngdV" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJcl" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngdW" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrug" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbch" resolve="glasshopper" />
-        <node concept="3pqW6w" id="78NQ33CmJcm" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJcn" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngdX" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngdY" role="3TlMhJ">
             <property role="2hmy$m" value="0.2" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJco" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngdZ" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJcp" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMnge0" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJcq" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMnge1" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="2vNYUVYXbch" resolve="glasshopper" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJcr" role="UCwlx">
-        <property role="3U5fAr" value="1495698586513" />
+      <node concept="3U5fAp" id="3DzEEzMnge2" role="UCwlx">
+        <property role="3U5fAr" value="1495773572665" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJcs" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJct" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJcu" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMnge3" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMnge4" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMnge5" role="19SJt6" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJcv" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMnge6" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_6" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 30, dripReqdrip2 == 0, dripReqdrip1 == 5109, dripReqdrip5 == 0.2" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 30, dripReqdrip2 == 0, dripReqdrip1 == 5109, dripReqdrip5 == 0.2" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="False" />
       <property role="3EuqCt" value="Infeasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJc$" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngeb" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJc_" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJcA" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMngec" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnged" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJcB" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngee" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJcC" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngef" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJcD" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJcE" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJcF" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngeg" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMngeh" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngei" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJcG" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMngej" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJcH" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngek" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJcI" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngel" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJcJ" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJcK" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngem" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMngen" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJcL" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngeo" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJcM" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngep" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJcN" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJcO" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngeq" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnger" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJcP" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMnges" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJcQ" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnget" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMngeu" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMngev" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMngew" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMngex" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMngey" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngez" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMnge$" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMnge_" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngeA" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngeB" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngeC" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJcR" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJcS" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJcT" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMngeD" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngeE" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngeF" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJcU" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJcV" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJcW" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMngeG" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMngeH" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMngeI" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJcX" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMngeJ" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJcY" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngeK" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJdd" role="1K6blL">
-        <property role="3U5fAr" value="1495698587246" />
+      <node concept="2KVQ5I" id="3DzEEzMngeL" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMngeM" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngeN" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngeO" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMngeP" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngeQ" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMngf5" role="1K6blL">
+        <property role="3U5fAr" value="1495773573317" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJde" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJdf" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJdg" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngf6" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngf7" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngf8" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJdh" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngf9" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZotK" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZosY" resolve="normalmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJdi" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJdj" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngfa" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngfb" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJdk" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngfc" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJdl" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngfd" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZphv" resolve="fact_1" />
         <ref role="3tO4an" node="7UBUYoGZosY" resolve="normalmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJdm" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJdn" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngfe" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngff" role="3TlMhJ">
             <property role="2hmy$m" value="0" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJdo" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngfg" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJdp" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngfh" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZom_" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbch" resolve="glasshopper" />
-        <node concept="3pqW6w" id="78NQ33CmJdq" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJdr" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngfi" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngfj" role="3TlMhJ">
             <property role="2hmy$m" value="5109" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJds" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngfk" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJdt" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngfl" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrug" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbch" resolve="glasshopper" />
-        <node concept="3pqW6w" id="78NQ33CmJdu" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJdv" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngfm" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngfn" role="3TlMhJ">
             <property role="2hmy$m" value="0.2" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJdw" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngfo" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJdx" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngfp" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="7UBUYoGZosY" resolve="normalmotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJdy" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngfq" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="2vNYUVYXbch" resolve="glasshopper" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJdz" role="UCwlx">
-        <property role="3U5fAr" value="1495698587246" />
+      <node concept="3U5fAp" id="3DzEEzMngfr" role="UCwlx">
+        <property role="3U5fAr" value="1495773573327" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJd$" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJd_" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJdA" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngfs" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngft" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngfu" role="19SJt6" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJdB" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMngfv" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_7" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 40, dripReqdrip2 == 3000, dripReqdrip1 == 16071, dripReqdrip5 == 0.3" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 40, dripReqdrip2 == 3000, dripReqdrip1 == 16071, dripReqdrip5 == 0.3" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="False" />
       <property role="3EuqCt" value="Infeasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJdG" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngf$" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJdH" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJdI" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMngf_" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngfA" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJdJ" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngfB" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJdK" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngfC" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJdL" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJdM" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJdN" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngfD" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMngfE" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngfF" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJdO" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMngfG" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJdP" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngfH" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJdQ" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngfI" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJdR" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJdS" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngfJ" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMngfK" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJdT" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngfL" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJdU" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngfM" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJdV" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJdW" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngfN" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngfO" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJdX" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngfP" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJdY" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngfQ" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMngfR" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMngfS" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMngfT" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMngfU" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMngfV" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngfW" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngfX" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMngfY" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngfZ" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngg0" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngg1" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJdZ" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJe0" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJe1" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMngg2" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngg3" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngg4" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJe2" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJe3" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJe4" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMngg5" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMngg6" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMngg7" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJe5" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMngg8" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJe6" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngg9" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJel" role="1K6blL">
-        <property role="3U5fAr" value="1495698587951" />
+      <node concept="2KVQ5I" id="3DzEEzMngga" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMnggb" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMnggc" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMnggd" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMngge" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMnggf" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMnggu" role="1K6blL">
+        <property role="3U5fAr" value="1495773574024" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJem" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJen" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJeo" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMnggv" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMnggw" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMnggx" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJep" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnggy" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbP1" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbe_" resolve="hiperminimotor" />
-        <node concept="3pqW6w" id="78NQ33CmJeq" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJer" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMnggz" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngg$" role="3TlMhJ">
             <property role="2hmy$m" value="40" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJes" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngg_" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJet" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnggA" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbXr" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbe_" resolve="hiperminimotor" />
-        <node concept="3pqW6w" id="78NQ33CmJeu" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJev" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMnggB" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnggC" role="3TlMhJ">
             <property role="2hmy$m" value="3000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJew" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMnggD" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJex" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnggE" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrEt" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZrEn" resolve="emperor" />
-        <node concept="3pqW6w" id="78NQ33CmJey" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJez" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMnggF" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnggG" role="3TlMhJ">
             <property role="2hmy$m" value="16071" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJe$" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMnggH" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJe_" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnggI" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrEx" resolve="fact_1" />
         <ref role="3tO4an" node="7UBUYoGZrEn" resolve="emperor" />
-        <node concept="3pqW6w" id="78NQ33CmJeA" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJeB" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMnggJ" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnggK" role="3TlMhJ">
             <property role="2hmy$m" value="0.3" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJeC" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMnggL" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJeD" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMnggM" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="2vNYUVYXbe_" resolve="hiperminimotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJeE" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMnggN" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="7UBUYoGZrEn" resolve="emperor" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJeF" role="UCwlx">
-        <property role="3U5fAr" value="1495698587951" />
+      <node concept="3U5fAp" id="3DzEEzMnggO" role="UCwlx">
+        <property role="3U5fAr" value="1495773574034" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJeG" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJeH" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJeI" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMnggP" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMnggQ" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMnggR" role="19SJt6" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJeJ" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMnggS" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_8" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 50, dripReqdrip2 == 4000, dripReqdrip1 == 16071, dripReqdrip5 == 0.3" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 50, dripReqdrip2 == 4000, dripReqdrip1 == 16071, dripReqdrip5 == 0.3" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="False" />
       <property role="3EuqCt" value="Infeasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJeO" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnggX" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJeP" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJeQ" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMnggY" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnggZ" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJeR" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngh0" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJeS" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngh1" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJeT" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJeU" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJeV" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngh2" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMngh3" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngh4" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJeW" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMngh5" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJeX" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngh6" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJeY" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngh7" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJeZ" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJf0" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngh8" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMngh9" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJf1" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngha" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJf2" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnghb" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJf3" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJf4" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMnghc" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnghd" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJf5" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMnghe" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJf6" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnghf" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMnghg" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMnghh" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMnghi" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMnghj" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMnghk" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMnghl" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMnghm" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMnghn" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngho" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMnghp" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMnghq" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJf7" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJf8" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJf9" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMnghr" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMnghs" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMnght" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJfa" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJfb" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJfc" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMnghu" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMnghv" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMnghw" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJfd" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMnghx" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJfe" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMnghy" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJft" role="1K6blL">
-        <property role="3U5fAr" value="1495698588677" />
+      <node concept="2KVQ5I" id="3DzEEzMnghz" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMngh$" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngh_" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMnghA" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMnghB" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMnghC" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMnghR" role="1K6blL">
+        <property role="3U5fAr" value="1495773574690" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJfu" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJfv" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJfw" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMnghS" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMnghT" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMnghU" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJfx" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnghV" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbS_" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJfy" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJfz" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMnghW" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnghX" role="3TlMhJ">
             <property role="2hmy$m" value="50" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJf$" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMnghY" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJf_" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnghZ" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXc9K" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJfA" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJfB" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngi0" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngi1" role="3TlMhJ">
             <property role="2hmy$m" value="4000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJfC" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngi2" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJfD" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngi3" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrEt" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZrEn" resolve="emperor" />
-        <node concept="3pqW6w" id="78NQ33CmJfE" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJfF" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngi4" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngi5" role="3TlMhJ">
             <property role="2hmy$m" value="16071" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJfG" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngi6" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJfH" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngi7" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrEx" resolve="fact_1" />
         <ref role="3tO4an" node="7UBUYoGZrEn" resolve="emperor" />
-        <node concept="3pqW6w" id="78NQ33CmJfI" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJfJ" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngi8" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngi9" role="3TlMhJ">
             <property role="2hmy$m" value="0.3" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJfK" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngia" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJfL" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngib" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJfM" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngic" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="7UBUYoGZrEn" resolve="emperor" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJfN" role="UCwlx">
-        <property role="3U5fAr" value="1495698588677" />
+      <node concept="3U5fAp" id="3DzEEzMngid" role="UCwlx">
+        <property role="3U5fAr" value="1495773574693" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJfO" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJfP" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJfQ" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngie" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngif" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngig" role="19SJt6" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJfR" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMngih" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_9" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 30, dripReqdrip2 == 0, dripReqdrip1 == 16071, dripReqdrip5 == 0.3" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 30, dripReqdrip2 == 0, dripReqdrip1 == 16071, dripReqdrip5 == 0.3" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="False" />
       <property role="3EuqCt" value="Infeasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJfW" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngim" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJfX" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJfY" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMngin" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngio" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJfZ" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngip" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJg0" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngiq" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJg1" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJg2" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJg3" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngir" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMngis" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngit" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJg4" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMngiu" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJg5" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngiv" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJg6" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngiw" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJg7" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJg8" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngix" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMngiy" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJg9" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngiz" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJga" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngi$" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJgb" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJgc" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngi_" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngiA" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJgd" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngiB" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJge" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngiC" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMngiD" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMngiE" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMngiF" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMngiG" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMngiH" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngiI" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngiJ" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMngiK" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngiL" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngiM" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngiN" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJgf" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJgg" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJgh" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMngiO" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngiP" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngiQ" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJgi" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJgj" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJgk" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMngiR" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMngiS" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMngiT" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJgl" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMngiU" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJgm" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngiV" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJg_" role="1K6blL">
-        <property role="3U5fAr" value="1495698589396" />
+      <node concept="2KVQ5I" id="3DzEEzMngiW" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMngiX" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngiY" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngiZ" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMngj0" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngj1" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMngjg" role="1K6blL">
+        <property role="3U5fAr" value="1495773575341" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJgA" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJgB" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJgC" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngjh" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngji" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngjj" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJgD" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngjk" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZotK" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZosY" resolve="normalmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJgE" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJgF" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngjl" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngjm" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJgG" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngjn" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJgH" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngjo" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZphv" resolve="fact_1" />
         <ref role="3tO4an" node="7UBUYoGZosY" resolve="normalmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJgI" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJgJ" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngjp" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngjq" role="3TlMhJ">
             <property role="2hmy$m" value="0" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJgK" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngjr" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJgL" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngjs" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrEt" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZrEn" resolve="emperor" />
-        <node concept="3pqW6w" id="78NQ33CmJgM" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJgN" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngjt" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngju" role="3TlMhJ">
             <property role="2hmy$m" value="16071" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJgO" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngjv" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJgP" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngjw" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrEx" resolve="fact_1" />
         <ref role="3tO4an" node="7UBUYoGZrEn" resolve="emperor" />
-        <node concept="3pqW6w" id="78NQ33CmJgQ" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJgR" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngjx" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngjy" role="3TlMhJ">
             <property role="2hmy$m" value="0.3" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJgS" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngjz" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJgT" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngj$" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="7UBUYoGZosY" resolve="normalmotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJgU" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngj_" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="7UBUYoGZrEn" resolve="emperor" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJgV" role="UCwlx">
-        <property role="3U5fAr" value="1495698589396" />
+      <node concept="3U5fAp" id="3DzEEzMngjA" role="UCwlx">
+        <property role="3U5fAr" value="1495773575341" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJgW" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJgX" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJgY" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngjB" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngjC" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngjD" role="19SJt6" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJgZ" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMngjE" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_10" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 40, dripReqdrip2 == 3000, dripReqdrip1 == 11674, dripReqdrip5 == 0.1" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 40, dripReqdrip2 == 3000, dripReqdrip1 == 11674, dripReqdrip5 == 0.1" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="True" />
       <property role="3EuqCt" value="Feasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJh4" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngjJ" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJh5" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJh6" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMngjK" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngjL" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJh7" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngjM" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJh8" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngjN" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJh9" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJha" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJhb" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngjO" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMngjP" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngjQ" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJhc" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMngjR" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJhd" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngjS" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJhe" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngjT" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJhf" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJhg" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngjU" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMngjV" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJhh" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngjW" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJhi" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngjX" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJhj" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJhk" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngjY" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngjZ" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJhl" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngk0" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJhm" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngk1" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMngk2" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMngk3" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMngk4" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMngk5" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMngk6" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngk7" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngk8" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMngk9" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngka" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngkb" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngkc" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJhn" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJho" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJhp" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMngkd" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngke" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngkf" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJhq" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJhr" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJhs" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMngkg" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMngkh" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMngki" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJht" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMngkj" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJhu" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngkk" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJhH" role="1K6blL">
-        <property role="3U5fAr" value="1495698590118" />
+      <node concept="2KVQ5I" id="3DzEEzMngkl" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMngkm" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngkn" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngko" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMngkp" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngkq" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMngkD" role="1K6blL">
+        <property role="3U5fAr" value="1495773575991" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJhI" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJhJ" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJhK" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngkE" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngkF" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngkG" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJhL" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngkH" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbP1" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbe_" resolve="hiperminimotor" />
-        <node concept="3pqW6w" id="78NQ33CmJhM" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJhN" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngkI" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngkJ" role="3TlMhJ">
             <property role="2hmy$m" value="40" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJhO" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngkK" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJhP" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngkL" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbXr" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbe_" resolve="hiperminimotor" />
-        <node concept="3pqW6w" id="78NQ33CmJhQ" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJhR" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngkM" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngkN" role="3TlMhJ">
             <property role="2hmy$m" value="3000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJhS" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngkO" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJhT" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngkP" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZoh9" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbcF" resolve="hornet" />
-        <node concept="3pqW6w" id="78NQ33CmJhU" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJhV" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngkQ" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngkR" role="3TlMhJ">
             <property role="2hmy$m" value="11674" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJhW" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngkS" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJhX" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngkT" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrC6" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbcF" resolve="hornet" />
-        <node concept="3pqW6w" id="78NQ33CmJhY" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJhZ" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngkU" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngkV" role="3TlMhJ">
             <property role="2hmy$m" value="0.1" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJi0" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngkW" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJi1" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngkX" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="2vNYUVYXbe_" resolve="hiperminimotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJi2" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngkY" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="2vNYUVYXbcF" resolve="hornet" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJi3" role="UCwlx">
-        <property role="3U5fAr" value="1495698590118" />
+      <node concept="3U5fAp" id="3DzEEzMngkZ" role="UCwlx">
+        <property role="3U5fAr" value="1495773576001" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJi4" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJi5" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJi6" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngl0" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngl1" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngl2" role="19SJt6" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJi7" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMngl3" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_11" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 50, dripReqdrip2 == 4000, dripReqdrip1 == 11674, dripReqdrip5 == 0.1" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 50, dripReqdrip2 == 4000, dripReqdrip1 == 11674, dripReqdrip5 == 0.1" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="False" />
       <property role="3EuqCt" value="Infeasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJic" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngl8" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJid" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJie" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMngl9" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngla" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJif" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMnglb" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJig" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnglc" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJih" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJii" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJij" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngld" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMngle" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMnglf" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJik" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMnglg" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJil" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMnglh" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJim" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngli" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJin" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJio" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMnglj" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMnglk" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJip" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngll" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJiq" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnglm" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJir" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJis" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngln" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnglo" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJit" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMnglp" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJiu" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMnglq" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMnglr" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMngls" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMnglt" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMnglu" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMnglv" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMnglw" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMnglx" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMngly" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMnglz" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngl$" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngl_" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJiv" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJiw" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJix" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMnglA" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMnglB" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMnglC" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJiy" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJiz" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJi$" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMnglD" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMnglE" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMnglF" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJi_" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMnglG" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJiA" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMnglH" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJiP" role="1K6blL">
-        <property role="3U5fAr" value="1495698590853" />
+      <node concept="2KVQ5I" id="3DzEEzMnglI" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMnglJ" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMnglK" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMnglL" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMnglM" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMnglN" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMngm2" role="1K6blL">
+        <property role="3U5fAr" value="1495773576647" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJiQ" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJiR" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJiS" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngm3" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngm4" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngm5" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJiT" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngm6" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXbS_" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJiU" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJiV" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngm7" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngm8" role="3TlMhJ">
             <property role="2hmy$m" value="50" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJiW" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngm9" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJiX" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngma" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="2vNYUVYXc9K" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJiY" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJiZ" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngmb" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngmc" role="3TlMhJ">
             <property role="2hmy$m" value="4000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJj0" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngmd" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJj1" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngme" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZoh9" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbcF" resolve="hornet" />
-        <node concept="3pqW6w" id="78NQ33CmJj2" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJj3" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngmf" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngmg" role="3TlMhJ">
             <property role="2hmy$m" value="11674" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJj4" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngmh" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJj5" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngmi" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrC6" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbcF" resolve="hornet" />
-        <node concept="3pqW6w" id="78NQ33CmJj6" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJj7" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngmj" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngmk" role="3TlMhJ">
             <property role="2hmy$m" value="0.1" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJj8" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngml" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJj9" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngmm" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="2vNYUVYXbeN" resolve="hyperdashmotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJja" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngmn" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="2vNYUVYXbcF" resolve="hornet" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJjb" role="UCwlx">
-        <property role="3U5fAr" value="1495698590863" />
+      <node concept="3U5fAp" id="3DzEEzMngmo" role="UCwlx">
+        <property role="3U5fAr" value="1495773576657" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJjc" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJjd" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJje" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngmp" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngmq" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngmr" role="19SJt6" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="1c1bjO" id="78NQ33CmJjf" role="3L8auB">
+    <node concept="1c1bjO" id="3DzEEzMngms" role="3L8auB">
       <property role="2MGo4A" value="false" />
       <property role="TrG5h" value="Analysis_12" />
       <property role="3FYbYO" value="" />
-      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip6 == 30, dripReqdrip2 == 0, dripReqdrip1 == 11674, dripReqdrip5 == 0.1" />
+      <property role="1AgGGU" value="dripReqdrip3 &lt;= 15000, dripReqdrip0 == dripReqdrip1 + dripReqdrip2, dripReqdrip3 &gt;= dripReqdrip0, dripReqdrip4 &gt;= 30, dripReqdrip10 == 10, dripReqdrip11 &gt;= 120, dripReqdrip4 == dripReqdrip6 * (1 - dripReqdrip5), dripReqdrip9 == dripReqdrip8 * dripReqdrip5, dripReqdrip6 == 30, dripReqdrip2 == 0, dripReqdrip1 == 11674, dripReqdrip5 == 0.1" />
       <property role="1AgGEx" value="" />
       <property role="1AgGFv" value="" />
-      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip6, dripReqdrip5" />
-      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
+      <property role="1AgGG4" value="dripReqdrip3, dripReqdrip2, dripReqdrip1, dripReqdrip0, dripReqdrip4, dripReqdrip10, dripReqdrip11, dripReqdrip6, dripReqdrip5, dripReqdrip8, dripReqdrip9" />
+      <property role="1AgHwm" value="Association[{dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip8-&gt;&quot;チューニングによる速さへの影響度&quot;,dripReqdrip9-&gt;&quot;トータルでの速さへの影響度&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip3-&gt;&quot;お小遣い&quot;,dripReqdrip11-&gt;&quot;テスト時間内での要求移動距離&quot;,dripReqdrip4-&gt;&quot;速さ&quot;,dripReqdrip10-&gt;&quot;テスト時間(s)&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip0-&gt;&quot;総予算&quot;,dripReqdrip1-&gt;&quot;本体代&quot;,dripReqdrip6-&gt;&quot;モーターの出せる速さ&quot;,dripReqdrip2-&gt;&quot;モーター代&quot;,dripReqdrip5-&gt;&quot;本体重量による速さへの影響度&quot;,dripReqdrip1-&gt;&quot;本体代&quot;}]" />
       <property role="2My7Io" value="true" />
       <property role="1AjO65" value="False" />
       <property role="3EuqCt" value="Infeasible" />
       <ref role="1chl9t" node="2vNYUVYXbhs" resolve="ProjectRCCar" />
-      <node concept="2KVQ5I" id="78NQ33CmJjk" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngmx" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbjd" resolve="enforce_0" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jl" id="78NQ33CmJjl" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJjm" role="3TlMhJ">
+        <node concept="3Tl9Jl" id="3DzEEzMngmy" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngmz" role="3TlMhJ">
             <property role="2hmy$m" value="15000" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJjn" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngm$" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJjo" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngm_" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZlMa" resolve="enforce_1" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3pqW6w" id="78NQ33CmJjp" role="2KWotK">
-          <node concept="2BOciq" id="78NQ33CmJjq" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJjr" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngmA" role="2KWotK">
+          <node concept="2BOciq" id="3DzEEzMngmB" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngmC" role="3TlMhJ">
               <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
             </node>
-            <node concept="vMb$X" id="78NQ33CmJjs" role="3TlMhI">
+            <node concept="vMb$X" id="3DzEEzMngmD" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJjt" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngmE" role="3TlMhI">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJju" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngmF" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="7UBUYoGZvJl" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3i" resolve="reqbudget" />
-        <node concept="3Tl9Jp" id="78NQ33CmJjv" role="2KWotK">
-          <node concept="vMb$X" id="78NQ33CmJjw" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngmG" role="2KWotK">
+          <node concept="vMb$X" id="3DzEEzMngmH" role="3TlMhJ">
             <ref role="vMbB1" node="2vNYUVYXbij" resolve="総予算" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJjx" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngmI" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZvvE" resolve="お小遣い" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJjy" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngmJ" role="1lXyr_">
         <property role="2KXNsl" value="enforce" />
         <ref role="27FQn5" node="2vNYUVYXbJY" resolve="enforce_2" />
         <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
-        <node concept="3Tl9Jp" id="78NQ33CmJjz" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJj$" role="3TlMhJ">
+        <node concept="3Tl9Jp" id="3DzEEzMngmK" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngmL" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJj_" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngmM" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJjA" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngmN" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnc6n" resolve="enforce_3" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3TlM44" id="3DzEEzMngmO" role="2KWotK">
+          <node concept="CIdvy" id="3DzEEzMngmP" role="3TlMhJ">
+            <node concept="3TlMh9" id="3DzEEzMngmQ" role="CIrOC">
+              <property role="2hmy$m" value="10" />
+            </node>
+            <node concept="CIsGf" id="3DzEEzMngmR" role="CIwXZ">
+              <node concept="CIsvn" id="3DzEEzMngmS" role="CIi4h">
+                <ref role="CIi3I" to="cmgk:6TeNRL7trCJ" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngmT" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbu3" resolve="テスト時間" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngmU" role="1lXyr_">
+        <property role="2KXNsl" value="enforce" />
+        <ref role="27FQn5" node="3DzEEzMnbWF" resolve="enforce_4" />
+        <ref role="3tO4an" node="2vNYUVYXb3w" resolve="reqspeed" />
+        <node concept="3Tl9Jp" id="3DzEEzMngmV" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngmW" role="3TlMhJ">
+            <property role="2hmy$m" value="120" />
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngmX" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnbMs" resolve="移動距離" />
+          </node>
+        </node>
+      </node>
+      <node concept="2KVQ5I" id="3DzEEzMngmY" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="78NQ33CmvIQ" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
-        <node concept="3pqW6w" id="78NQ33CmJjB" role="2KWotK">
-          <node concept="2BOcij" id="78NQ33CmJjC" role="3TlMhJ">
-            <node concept="vMb$X" id="78NQ33CmJjD" role="3TlMhI">
+        <node concept="3pqW6w" id="3DzEEzMngmZ" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngn0" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngn1" role="3TlMhI">
               <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
             </node>
-            <node concept="2BPB98" id="78NQ33CmJjE" role="3TlMhJ">
-              <node concept="2BOcil" id="78NQ33CmJjF" role="1_9fRO">
-                <node concept="vMb$X" id="78NQ33CmJjG" role="3TlMhJ">
+            <node concept="2BPB98" id="3DzEEzMngn2" role="3TlMhJ">
+              <node concept="2BOcil" id="3DzEEzMngn3" role="1_9fRO">
+                <node concept="vMb$X" id="3DzEEzMngn4" role="3TlMhJ">
                   <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
                 </node>
-                <node concept="3TlMh9" id="78NQ33CmJjH" role="3TlMhI">
+                <node concept="3TlMh9" id="3DzEEzMngn5" role="3TlMhI">
                   <property role="2hmy$m" value="1" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="vMb$X" id="78NQ33CmJjI" role="3TlMhI">
-            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="速さ" />
+          <node concept="vMb$X" id="3DzEEzMngn6" role="3TlMhI">
+            <ref role="vMbB1" node="2vNYUVYXbiU" resolve="要求最高速度" />
           </node>
         </node>
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJjX" role="1K6blL">
-        <property role="3U5fAr" value="1495698591572" />
+      <node concept="2KVQ5I" id="3DzEEzMngn7" role="1lXyr_">
+        <property role="2KXNsl" value="fact" />
+        <ref role="27FQn5" node="3DzEEzMncZy" resolve="fact_0" />
+        <ref role="3tO4an" node="7UBUYoGZs6N" resolve="desphysics" />
+        <node concept="3pqW6w" id="3DzEEzMngn8" role="2KWotK">
+          <node concept="2BOcij" id="3DzEEzMngn9" role="3TlMhJ">
+            <node concept="vMb$X" id="3DzEEzMngna" role="3TlMhJ">
+              <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
+            </node>
+            <node concept="vMb$X" id="3DzEEzMngnb" role="3TlMhI">
+              <ref role="vMbB1" node="3DzEEzMnaFr" resolve="ぼくのチューニングによる速さへの影響度" />
+            </node>
+          </node>
+          <node concept="vMb$X" id="3DzEEzMngnc" role="3TlMhI">
+            <ref role="vMbB1" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+          </node>
+        </node>
+      </node>
+      <node concept="3U5fAp" id="3DzEEzMngnr" role="1K6blL">
+        <property role="3U5fAr" value="1495773577304" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJjY" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJjZ" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJk0" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngns" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngnt" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngnu" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJk1" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngnv" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZotK" resolve="fact_0" />
         <ref role="3tO4an" node="7UBUYoGZosY" resolve="normalmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJk2" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJk3" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngnw" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngnx" role="3TlMhJ">
             <property role="2hmy$m" value="30" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJk4" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngny" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZqKR" resolve="モーターの出せる速さ" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJk5" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngnz" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZphv" resolve="fact_1" />
         <ref role="3tO4an" node="7UBUYoGZosY" resolve="normalmotor" />
-        <node concept="3pqW6w" id="78NQ33CmJk6" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJk7" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngn$" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngn_" role="3TlMhJ">
             <property role="2hmy$m" value="0" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJk8" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngnA" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlCS" resolve="モーター代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJk9" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngnB" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZoh9" resolve="fact_0" />
         <ref role="3tO4an" node="2vNYUVYXbcF" resolve="hornet" />
-        <node concept="3pqW6w" id="78NQ33CmJka" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJkb" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngnC" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngnD" role="3TlMhJ">
             <property role="2hmy$m" value="11674" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJkc" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngnE" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZlmB" resolve="本体代" />
           </node>
         </node>
       </node>
-      <node concept="2KVQ5I" id="78NQ33CmJkd" role="1lXyr_">
+      <node concept="2KVQ5I" id="3DzEEzMngnF" role="1lXyr_">
         <property role="2KXNsl" value="fact" />
         <ref role="27FQn5" node="7UBUYoGZrC6" resolve="fact_1" />
         <ref role="3tO4an" node="2vNYUVYXbcF" resolve="hornet" />
-        <node concept="3pqW6w" id="78NQ33CmJke" role="2KWotK">
-          <node concept="3TlMh9" id="78NQ33CmJkf" role="3TlMhJ">
+        <node concept="3pqW6w" id="3DzEEzMngnG" role="2KWotK">
+          <node concept="3TlMh9" id="3DzEEzMngnH" role="3TlMhJ">
             <property role="2hmy$m" value="0.1" />
           </node>
-          <node concept="vMb$X" id="78NQ33CmJkg" role="3TlMhI">
+          <node concept="vMb$X" id="3DzEEzMngnI" role="3TlMhI">
             <ref role="vMbB1" node="7UBUYoGZpYR" resolve="本体重量による速さへの影響度" />
           </node>
         </node>
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJkh" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngnJ" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbdb" resolve="TypeOfMotor" />
         <ref role="1kYspg" node="2vNYUVYXbhW" />
         <ref role="1lr5c4" node="7UBUYoGZosY" resolve="normalmotor" />
       </node>
-      <node concept="1lr5ip" id="78NQ33CmJki" role="1lr5ch">
+      <node concept="1lr5ip" id="3DzEEzMngnK" role="1lr5ch">
         <ref role="1lr5il" node="2vNYUVYXbbQ" resolve="TypeOfRCCar" />
         <ref role="1kYspg" node="7UBUYoGZt6C" />
         <ref role="1lr5c4" node="2vNYUVYXbcF" resolve="hornet" />
       </node>
-      <node concept="3U5fAp" id="78NQ33CmJkj" role="UCwlx">
-        <property role="3U5fAr" value="1495698591572" />
+      <node concept="3U5fAp" id="3DzEEzMngnL" role="UCwlx">
+        <property role="3U5fAr" value="1495773577313" />
         <property role="3U5fAo" value="NEATdemo" />
-        <node concept="OjmMv" id="78NQ33CmJkk" role="3U4VUP">
-          <node concept="19SGf9" id="78NQ33CmJkl" role="OjmMu">
-            <node concept="19SUe$" id="78NQ33CmJkm" role="19SJt6" />
+        <node concept="OjmMv" id="3DzEEzMngnM" role="3U4VUP">
+          <node concept="19SGf9" id="3DzEEzMngnN" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMngnO" role="19SJt6" />
           </node>
         </node>
       </node>
@@ -3399,6 +4224,22 @@
   <node concept="2YcMOH" id="7UBUYoGZ$ro">
     <property role="TrG5h" value="Arch" />
     <property role="3GE5qa" value="ローレベルエンジニアリング" />
+    <node concept="1QD3A2" id="3gufdqYRpP6" role="2IDCrN">
+      <property role="39ssVS" value="false" />
+      <node concept="TU7Tm" id="3gufdqYRpP7" role="TU7Tn">
+        <node concept="6$MA7" id="3gufdqYRpP9" role="6$MA4">
+          <property role="TrG5h" value="SomethingFactor" />
+          <ref role="6$MA3" to="cmup:2Puzg$LxGk_" resolve="default" />
+        </node>
+      </node>
+      <node concept="M55rT" id="3gufdqYRrmj" role="M55rN">
+        <property role="TrG5h" value="val" />
+        <node concept="2fgwQN" id="3gufdqYRrmU" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+      </node>
+    </node>
     <node concept="1QD3A2" id="78NQ33CmUJX" role="2IDCrN">
       <property role="39ssVS" value="false" />
       <node concept="TU7Tm" id="78NQ33CmUJY" role="TU7Tn">
@@ -3577,10 +4418,26 @@
             <ref role="MvyNv" node="78NQ33CmUNT" resolve="MovingDistance" />
           </node>
         </node>
+        <node concept="M1vdf" id="3gufdqYRpXc" role="24jtvR">
+          <ref role="22ati1" node="3gufdqYRpP6" resolve="SomethingFactor" />
+          <node concept="TU7Tm" id="3gufdqYRpXd" role="TU7Tn">
+            <node concept="6$MA7" id="3gufdqYRpXe" role="6$MA4">
+              <property role="TrG5h" value="SpeedFactor" />
+              <ref role="6$MA3" to="cmup:2Puzg$LxGk_" resolve="default" />
+            </node>
+          </node>
+        </node>
         <node concept="1JJQKK" id="78NQ33CmqbQ" role="1JJOQG">
           <node concept="1JJOOj" id="78NQ33Cmqco" role="1JJQKN">
-            <property role="TrG5h" value="Speedfactor" />
+            <property role="TrG5h" value="SpeedfactorFromWeight" />
             <node concept="2fgwQN" id="78NQ33Cmqcx" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+          </node>
+          <node concept="1JJOOj" id="3gufdqYR4WN" role="1JJQKN">
+            <property role="TrG5h" value="SpeedFactorFromMyTuning" />
+            <node concept="2fgwQN" id="3gufdqYR4XI" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
             </node>
@@ -3786,123 +4643,14 @@
       <node concept="1$WMy3" id="3yjppz2Rww2" role="22Mr8z" />
       <node concept="3EWlIv" id="3yjppz2RwwG" role="3faCKd">
         <ref role="3EWlIc" node="7UBUYoGZ$sm" resolve="RCCar" />
-        <node concept="4GTGX" id="3gufdqYQRRD" role="3_0A$x">
-          <node concept="4GTI4" id="3gufdqYQRU3" role="Xk2kT" />
-          <node concept="2qmXGp" id="3gufdqYQRTx" role="Xj8vG">
-            <node concept="1QkerE" id="3gufdqYQWDd" role="1ESnxz">
-              <ref role="1Qkeqn" node="78NQ33CmUSM" resolve="val" />
+        <node concept="4GTGX" id="3gufdqYRdnI" role="3_0A$x">
+          <node concept="4GTJP" id="3gufdqYRdq6" role="Xk2kT" />
+          <node concept="2qmXGp" id="3gufdqYRrop" role="Xj8vG">
+            <node concept="1QkerE" id="3gufdqYRroS" role="1ESnxz">
+              <ref role="1Qkeqn" node="3gufdqYRrmj" resolve="val" />
             </node>
-            <node concept="MvyNu" id="3gufdqYQWzv" role="1_9fRO">
-              <ref role="MvyNv" node="78NQ33CmUNT" resolve="MovingDistance" />
-            </node>
-          </node>
-        </node>
-        <node concept="2YoFzq" id="3yjppz2RwwJ" role="3_0A$x">
-          <property role="2Ynp6U" value="requirement" />
-          <node concept="2pYBWB" id="3yjppz2RyI$" role="2Ynp6Z">
-            <property role="2DT9Ir" value="false" />
-            <node concept="2p3rxC" id="3yjppz2RyI_" role="2p3rxd" />
-            <node concept="2pYue1" id="3yjppz2RyIA" role="2pYucY" />
-            <node concept="2pYucH" id="3yjppz2RyIB" role="2pYucL" />
-            <node concept="3Tl9Jr" id="3yjppz2Rz13" role="hqOdo">
-              <node concept="3TlMh9" id="3yjppz2Rz1i" role="3TlMhJ">
-                <property role="2hmy$m" value="0" />
-              </node>
-              <node concept="2qmXGp" id="3yjppz2Rz7W" role="3TlMhI">
-                <node concept="1QkerE" id="3yjppz2Rz8L" role="1ESnxz">
-                  <ref role="1Qkeqn" node="7UBUYoGZ$ry" resolve="val" />
-                </node>
-                <node concept="MvyNu" id="3yjppz2RyVH" role="1_9fRO">
-                  <ref role="MvyNv" node="7UBUYoGZ$_1" resolve="ActualSpeed" />
-                </node>
-              </node>
-            </node>
-            <node concept="3itpKJ" id="3yjppz2Rz8S" role="2pYsw2">
-              <node concept="3Tl9Jr" id="3yjppz2RzsE" role="3itpKG">
-                <node concept="3TlMh9" id="78NQ33CmM2_" role="3TlMhJ">
-                  <property role="2hmy$m" value="0" />
-                </node>
-                <node concept="2qmXGp" id="3yjppz2RzgB" role="3TlMhI">
-                  <node concept="1QkerE" id="3yjppz2RzmA" role="1ESnxz">
-                    <ref role="1Qkeqn" node="7UBUYoGZ$ry" resolve="val" />
-                  </node>
-                  <node concept="MvyNu" id="78NQ33CmLN1" role="1_9fRO">
-                    <ref role="MvyNv" node="7UBUYoGZ$$Y" resolve="OrderSpeed" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3itpKJ" id="3yjppz2RzDD" role="2pYfQL">
-              <node concept="3TlM44" id="3yjppz2R$j_" role="3itpKG">
-                <node concept="2qmXGp" id="3yjppz2R$jC" role="3TlMhI">
-                  <node concept="1QkerE" id="3yjppz2R$jD" role="1ESnxz">
-                    <ref role="1Qkeqn" node="7UBUYoGZ$ry" resolve="val" />
-                  </node>
-                  <node concept="MvyNu" id="78NQ33CmMdb" role="1_9fRO">
-                    <ref role="MvyNv" node="7UBUYoGZ$$Y" resolve="OrderSpeed" />
-                  </node>
-                </node>
-                <node concept="3TlMh9" id="78NQ33CmMtH" role="3TlMhJ">
-                  <property role="2hmy$m" value="0" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2YoFzq" id="78NQ33CmMEB" role="3_0A$x">
-          <property role="2Ynp6U" value="requirement" />
-          <node concept="2pYBWB" id="78NQ33CmMEC" role="2Ynp6Z">
-            <property role="2DT9Ir" value="false" />
-            <node concept="2p3rxC" id="78NQ33CmMED" role="2p3rxd" />
-            <node concept="2pYue1" id="78NQ33CmMEE" role="2pYucY" />
-            <node concept="2pYucH" id="78NQ33CmMEF" role="2pYucL" />
-            <node concept="3TlM44" id="78NQ33CmO7V" role="hqOdo">
-              <node concept="2qmXGp" id="78NQ33CmO7Y" role="3TlMhI">
-                <node concept="1QkerE" id="78NQ33CmO7Z" role="1ESnxz">
-                  <ref role="1Qkeqn" node="78NQ33CmpX2" resolve="val" />
-                </node>
-                <node concept="MvyNu" id="78NQ33CmO80" role="1_9fRO">
-                  <ref role="MvyNv" node="78NQ33Cmq3L" resolve="ActualSteeringAngle" />
-                </node>
-              </node>
-              <node concept="2qmXGp" id="78NQ33CmOuk" role="3TlMhJ">
-                <node concept="1QkerE" id="78NQ33CmO$O" role="1ESnxz">
-                  <ref role="1Qkeqn" node="78NQ33CmpX2" resolve="val" />
-                </node>
-                <node concept="MvyNu" id="78NQ33CmOiO" role="1_9fRO">
-                  <ref role="MvyNv" node="78NQ33CmpYL" resolve="OrderSteeringAngle" />
-                </node>
-              </node>
-            </node>
-            <node concept="3itpKJ" id="78NQ33CmMEL" role="2pYsw2">
-              <node concept="25Bbzn" id="78NQ33CmNdl" role="3itpKG">
-                <node concept="2qmXGp" id="78NQ33CmNdo" role="3TlMhI">
-                  <node concept="1QkerE" id="78NQ33CmNdp" role="1ESnxz">
-                    <ref role="1Qkeqn" node="78NQ33CmpX2" resolve="val" />
-                  </node>
-                  <node concept="MvyNu" id="78NQ33CmNdq" role="1_9fRO">
-                    <ref role="MvyNv" node="78NQ33CmpYL" resolve="OrderSteeringAngle" />
-                  </node>
-                </node>
-                <node concept="3TlMh9" id="78NQ33CmNdn" role="3TlMhJ">
-                  <property role="2hmy$m" value="0" />
-                </node>
-              </node>
-            </node>
-            <node concept="3itpKJ" id="78NQ33CmMER" role="2pYfQL">
-              <node concept="3TlM44" id="78NQ33CmMES" role="3itpKG">
-                <node concept="2qmXGp" id="78NQ33CmMET" role="3TlMhI">
-                  <node concept="1QkerE" id="78NQ33CmMEU" role="1ESnxz">
-                    <ref role="1Qkeqn" node="78NQ33CmpX2" resolve="val" />
-                  </node>
-                  <node concept="MvyNu" id="78NQ33CmNo6" role="1_9fRO">
-                    <ref role="MvyNv" node="78NQ33CmpYL" resolve="OrderSteeringAngle" />
-                  </node>
-                </node>
-                <node concept="3TlMh9" id="78NQ33CmMEW" role="3TlMhJ">
-                  <property role="2hmy$m" value="0" />
-                </node>
-              </node>
+            <node concept="MvyNu" id="3gufdqYRqu9" role="1_9fRO">
+              <ref role="MvyNv" node="3gufdqYRpXc" resolve="SpeedFactor" />
             </node>
           </node>
         </node>
@@ -3913,23 +4661,23 @@
             <node concept="2p3rxC" id="3gufdqYR0vG" role="2p3rxd" />
             <node concept="2pYue1" id="3gufdqYR0vH" role="2pYucY" />
             <node concept="2pYucH" id="3gufdqYR0vI" role="2pYucL" />
-            <node concept="3Tl9Jl" id="3gufdqYR0Nt" role="hqOdo">
-              <node concept="3TlMh9" id="3gufdqYR0Ny" role="3TlMhJ">
-                <property role="2hmy$m" value="200" />
-              </node>
-              <node concept="2qmXGp" id="3gufdqYR0Ud" role="3TlMhI">
-                <node concept="1QkerE" id="3gufdqYR0Vb" role="1ESnxz">
+            <node concept="3Tl9Jp" id="3gufdqYRavl" role="hqOdo">
+              <node concept="2qmXGp" id="3gufdqYRavo" role="3TlMhI">
+                <node concept="1QkerE" id="3gufdqYRavp" role="1ESnxz">
                   <ref role="1Qkeqn" node="78NQ33CmUSM" resolve="val" />
                 </node>
-                <node concept="MvyNu" id="3gufdqYR0Ja" role="1_9fRO">
+                <node concept="MvyNu" id="3gufdqYRavq" role="1_9fRO">
                   <ref role="MvyNv" node="78NQ33CmUNT" resolve="MovingDistance" />
                 </node>
+              </node>
+              <node concept="3TlMh9" id="3gufdqYRavn" role="3TlMhJ">
+                <property role="2hmy$m" value="150" />
               </node>
             </node>
             <node concept="2pYa2c" id="3gufdqYR0xh" role="2pYsw2">
               <node concept="CIdvy" id="3gufdqYR0HI" role="2pYa2d">
                 <node concept="3TlMh9" id="3gufdqYR0HH" role="CIrOC">
-                  <property role="2hmy$m" value="35" />
+                  <property role="2hmy$m" value="10" />
                 </node>
                 <node concept="CIsGf" id="3gufdqYR0HJ" role="CIwXZ">
                   <node concept="CIsvn" id="3gufdqYR0HK" role="CIi4h">
@@ -3992,7 +4740,7 @@
               <node concept="3Tl9Jp" id="78NQ33CmR3B" role="34cAuo">
                 <node concept="CIdvy" id="78NQ33CmRlO" role="3TlMhJ">
                   <node concept="3TlMh9" id="78NQ33CmRlN" role="CIrOC">
-                    <property role="2hmy$m" value="10" />
+                    <property role="2hmy$m" value="4" />
                   </node>
                   <node concept="CIsGf" id="78NQ33CmRlP" role="CIwXZ">
                     <node concept="CIsvn" id="78NQ33CmRlQ" role="CIi4h">
@@ -4022,7 +4770,7 @@
               <node concept="3Tl9Jp" id="78NQ33CmRyG" role="34cAuo">
                 <node concept="CIdvy" id="78NQ33CmRyH" role="3TlMhJ">
                   <node concept="3TlMh9" id="78NQ33CmRyI" role="CIrOC">
-                    <property role="2hmy$m" value="15" />
+                    <property role="2hmy$m" value="5" />
                   </node>
                   <node concept="CIsGf" id="78NQ33CmRyJ" role="CIwXZ">
                     <node concept="CIsvn" id="78NQ33CmRyK" role="CIi4h">
@@ -4052,7 +4800,7 @@
               <node concept="3Tl9Jp" id="78NQ33CmRAY" role="34cAuo">
                 <node concept="CIdvy" id="78NQ33CmRAZ" role="3TlMhJ">
                   <node concept="3TlMh9" id="78NQ33CmRB0" role="CIrOC">
-                    <property role="2hmy$m" value="25" />
+                    <property role="2hmy$m" value="7" />
                   </node>
                   <node concept="CIsGf" id="78NQ33CmRB1" role="CIwXZ">
                     <node concept="CIsvn" id="78NQ33CmRB2" role="CIi4h">
@@ -4065,24 +4813,11 @@
             </node>
           </node>
           <node concept="22t6Nw" id="78NQ33CmRpS" role="2FNgcR">
-            <node concept="2c6VQo" id="78NQ33CmRXQ" role="22t6Nz">
-              <node concept="2qmXGp" id="78NQ33CmRZw" role="2c6Tfq">
-                <node concept="1QkerE" id="78NQ33CmS10" role="1ESnxz">
-                  <ref role="1Qkeqn" node="7UBUYoGZ$ry" resolve="val" />
-                </node>
-                <node concept="MvyNu" id="78NQ33CmRY1" role="1_9fRO">
-                  <ref role="MvyNv" node="7UBUYoGZ$$Y" resolve="OrderSpeed" />
-                </node>
-              </node>
-              <node concept="3TlMh9" id="78NQ33CmS1a" role="2c6VQp">
-                <property role="2hmy$m" value="20" />
-              </node>
-            </node>
             <node concept="34cAup" id="78NQ33CmS5s" role="22t6Nz">
               <node concept="3Tl9Jp" id="78NQ33CmSaB" role="34cAuo">
                 <node concept="CIdvy" id="78NQ33CmT5a" role="3TlMhJ">
                   <node concept="3TlMh9" id="78NQ33CmT59" role="CIrOC">
-                    <property role="2hmy$m" value="35" />
+                    <property role="2hmy$m" value="10" />
                   </node>
                   <node concept="CIsGf" id="78NQ33CmT5b" role="CIwXZ">
                     <node concept="CIsvn" id="78NQ33CmT5c" role="CIi4h">
@@ -4102,7 +4837,7 @@
               <node concept="3Tl9Jp" id="78NQ33CmTkG" role="34cAuo">
                 <node concept="CIdvy" id="78NQ33CmTAL" role="3TlMhJ">
                   <node concept="3TlMh9" id="78NQ33CmTAK" role="CIrOC">
-                    <property role="2hmy$m" value="35" />
+                    <property role="2hmy$m" value="10" />
                   </node>
                   <node concept="CIsGf" id="78NQ33CmTAM" role="CIwXZ">
                     <node concept="CIsvn" id="78NQ33CmTAN" role="CIi4h">
@@ -4116,13 +4851,13 @@
           </node>
         </node>
         <node concept="31vUoP" id="7UBUYoGZCPC" role="31jEO$">
-          <property role="31vTOU" value="&quot;200以上すすむと回収が面倒なのでその前で止まってほしい&quot;" />
+          <property role="31vTOU" value="&quot;たくさん進んだなあ&quot;" />
           <node concept="2pYBWB" id="3yjppz2RDN0" role="31vUaJ">
             <property role="2DT9Ir" value="false" />
             <node concept="2p3rxC" id="3yjppz2RDN1" role="2p3rxd" />
             <node concept="2pYue1" id="3yjppz2RDN2" role="2pYucY" />
             <node concept="2pYucH" id="3yjppz2RDN3" role="2pYucL" />
-            <node concept="3Tl9Jl" id="3gufdqYQYms" role="hqOdo">
+            <node concept="3Tl9Jp" id="3gufdqYRacE" role="hqOdo">
               <node concept="2qmXGp" id="78NQ33CmWGg" role="3TlMhI">
                 <node concept="1QkerE" id="78NQ33CmWGh" role="1ESnxz">
                   <ref role="1Qkeqn" node="78NQ33CmUSM" resolve="val" />
@@ -4132,13 +4867,13 @@
                 </node>
               </node>
               <node concept="3TlMh9" id="78NQ33CmWGf" role="3TlMhJ">
-                <property role="2hmy$m" value="200" />
+                <property role="2hmy$m" value="150" />
               </node>
             </node>
             <node concept="2pYa2c" id="78NQ33CmVRx" role="2pYsw2">
               <node concept="CIdvy" id="78NQ33CmW9j" role="2pYa2d">
                 <node concept="3TlMh9" id="78NQ33CmW9i" role="CIrOC">
-                  <property role="2hmy$m" value="35" />
+                  <property role="2hmy$m" value="10" />
                 </node>
                 <node concept="CIsGf" id="78NQ33CmW9k" role="CIwXZ">
                   <node concept="CIsvn" id="78NQ33CmW9l" role="CIi4h">
@@ -4150,12 +4885,20 @@
             <node concept="1z45TS" id="78NQ33CmWsl" role="2pYfQL" />
           </node>
         </node>
+        <node concept="Fzt03" id="3gufdqYR4VQ" role="31lmeD">
+          <node concept="Fzja2" id="3gufdqYR4ZM" role="Fzt02">
+            <ref role="Fzja5" node="78NQ33Cmqco" resolve="SpeedfactorFromWeight" />
+          </node>
+          <node concept="3TlMh9" id="3gufdqYR50q" role="Fzt05">
+            <property role="2hmy$m" value="0.85" />
+          </node>
+        </node>
         <node concept="Fzt03" id="78NQ33CmPVN" role="31lmeD">
-          <node concept="Fzja2" id="78NQ33CmPZJ" role="Fzt02">
-            <ref role="Fzja5" node="78NQ33Cmqco" resolve="Speedfactor" />
+          <node concept="Fzja2" id="3gufdqYR4Zu" role="Fzt02">
+            <ref role="Fzja5" node="3gufdqYR4WN" resolve="SpeedFactorFromMyTuning" />
           </node>
           <node concept="vMb$X" id="3gufdqYQRNR" role="Fzt05">
-            <ref role="vMbB1" node="3gufdqYQOwv" resolve="opt_speed_factor" />
+            <ref role="vMbB1" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
           </node>
         </node>
         <node concept="Fzt03" id="78NQ33CmQp0" role="31lmeD">
@@ -4175,17 +4918,6 @@
     </node>
     <node concept="2YWkS2" id="7UBUYoGZ_6X" role="2RsZnW" />
     <node concept="2f$52y" id="3yjppz2R_Sc" role="lGtFl">
-      <node concept="3vAitl" id="3gufdqYQS6o" role="2f$52z">
-        <property role="3ajGZW" value="NEATdemo" />
-        <property role="3ajGZ3" value="H29.05.26 1:52:46" />
-        <property role="19LeSh" value="ALIAS_EDITOR_COMPONENT" />
-        <ref role="19LoX1" node="3gufdqYQRRD" />
-        <node concept="19SGf9" id="3gufdqYQS6p" role="3ajGZ5">
-          <node concept="19SUe$" id="3gufdqYQS6q" role="19SJt6">
-            <property role="19SUeA" value="移動距離の最大値を求めるための" />
-          </node>
-        </node>
-      </node>
       <node concept="3vAitl" id="3gufdqYQS6B" role="2f$52z">
         <property role="3ajGZW" value="NEATdemo" />
         <property role="3ajGZ3" value="H29.05.26 1:53:16" />
@@ -4204,13 +4936,24 @@
         <ref role="19LoX1" node="78NQ33CmTfC" />
         <node concept="19SGf9" id="3gufdqYR3Rr" role="3ajGZ5">
           <node concept="19SUe$" id="3gufdqYR3Rs" role="19SJt6">
-            <property role="19SUeA" value="テストハーネス側のテスト時間も35sに設定&#10;しないとデフォルトの10s時点の結果で評価されてしまう。&#10;40sなら40s時点の値がテスト結果に表示される&#10;（でも35s以上で設定してあればconstraintsは&#10;　ちゃんと35s時点で評価してくれる）" />
+            <property role="19SUeA" value="たとえばここで35sを設定した場合、&#10;テストハーネス側のテスト時間も35sに設定&#10;しないとデフォルトの10s時点の結果で評価されてしまう。&#10;40sなら40s時点の値がテスト結果に表示される&#10;（でも35s以上で設定してあればconstraintsは&#10;　ちゃんと35s時点で評価してくれる）" />
+          </node>
+        </node>
+      </node>
+      <node concept="3vAitl" id="3gufdqYRrp0" role="2f$52z">
+        <property role="3ajGZW" value="NEATdemo" />
+        <property role="3ajGZ3" value="H29.05.26 3:56:12" />
+        <property role="19LeSh" value="property_name" />
+        <ref role="19LoX1" node="3gufdqYRroS" />
+        <node concept="19SGf9" id="3gufdqYRrp1" role="3ajGZ5">
+          <node concept="19SUe$" id="3gufdqYRrp2" role="19SJt6">
+            <property role="19SUeA" value="要求を満たすために最低限必要なチューニング度合を&#10;模索する(極力低スキルで下記要求を満たすようにする)" />
           </node>
         </node>
       </node>
     </node>
     <node concept="vOfru" id="3gufdqYQOwv" role="2YIGrh">
-      <property role="TrG5h" value="opt_speed_factor" />
+      <property role="TrG5h" value="opt_speed_factorFromMyTuning" />
       <node concept="2fgwQN" id="3gufdqYQOwt" role="vOftS">
         <property role="2caQfQ" value="false" />
         <property role="2c7vTL" value="false" />
@@ -4220,7 +4963,7 @@
           <property role="2hmy$m" value="0" />
         </node>
         <node concept="3TlMh9" id="3gufdqYQO$b" role="ToRLs">
-          <property role="2hmy$m" value="0.85" />
+          <property role="2hmy$m" value="1" />
         </node>
       </node>
     </node>
@@ -4243,7 +4986,7 @@
       <property role="TrG5h" value="Testing" />
       <node concept="1K7B1z" id="7UBUYoGZDgC" role="22Mr8z">
         <node concept="eaKiz" id="7UBUYoGZDgD" role="eaKbh">
-          <property role="3ZUXHT" value="1495765631595" />
+          <property role="3ZUXHT" value="1495772096340" />
           <property role="3ZUYiX" value="NEATdemo" />
           <property role="eaKhi" value="success" />
           <node concept="OjmMv" id="7UBUYoGZDgE" role="eaKhv">
@@ -4260,740 +5003,1359 @@
           </node>
         </node>
       </node>
-      <node concept="Idoat" id="7UBUYoGZDge" role="3faCKd">
+      <node concept="Idoat" id="7H4HPFQGrsF" role="3faCKd">
         <property role="3u04_E" value="10" />
         <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
         <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
-        <node concept="IaViD" id="78NQ33Cn0nY" role="lGtFl">
+        <node concept="IaViD" id="7H4HPFQGrsS" role="lGtFl">
           <property role="IaT$I" value="true" />
         </node>
-        <node concept="2leUMr" id="7UBUYoGZDRG" role="lGtFl">
-          <node concept="1jS7UI" id="7UBUYoGZDRH" role="1jS7UE">
-            <property role="1jS7UH" value="e2bb9d26761a7c1fb257f39f48568694" />
-          </node>
-        </node>
-        <node concept="3ebvqV" id="3gufdqYQQoe" role="lGtFl">
+        <node concept="3ebvqV" id="7H4HPFQGzRL" role="lGtFl">
           <ref role="3fKOro" node="7UBUYoGZDfu" resolve="Testing" />
         </node>
-        <node concept="3hIKbI" id="3gufdqYR4QM" role="3hIK18">
+        <node concept="2leUMr" id="7H4HPFQGzS_" role="lGtFl">
+          <node concept="1jS7UI" id="7H4HPFQGzSA" role="1jS7UE">
+            <property role="1jS7UH" value="b023d6bf917598e3ec5441a211db0c58" />
+          </node>
+        </node>
+        <node concept="3hIKbI" id="7H4HPFQG$ek" role="3hIK18">
           <property role="3KBtP8" value="true" />
           <property role="3KBtPb" value="true" />
           <property role="3KPFLx" value="1" />
           <ref role="3hIKbD" node="7UBUYoGZCPC" />
         </node>
-        <node concept="3KA0h5" id="3gufdqYR4QN" role="3hIK18">
+        <node concept="3KA0h5" id="7H4HPFQG$el" role="3hIK18">
           <property role="3KBtP8" value="true" />
           <property role="3KBtPb" value="true" />
           <property role="3KPFLx" value="1" />
-          <ref role="3KA0h0" node="3yjppz2RwwJ" />
-        </node>
-        <node concept="3KA0h5" id="3gufdqYR4QO" role="3hIK18">
-          <property role="3KBtP8" value="true" />
-          <property role="3KBtPb" value="true" />
-          <property role="3KPFLx" value="2" />
-          <ref role="3KA0h0" node="78NQ33CmMEB" />
-        </node>
-        <node concept="3KA0h5" id="3gufdqYR4QP" role="3hIK18">
-          <property role="3KBtP8" value="true" />
-          <property role="3KBtPb" value="true" />
-          <property role="3KPFLx" value="3" />
           <ref role="3KA0h0" node="3gufdqYR0tO" />
         </node>
-        <node concept="3OUPuK" id="3gufdqYR4QQ" role="3hIK18">
+        <node concept="3OUPuK" id="7H4HPFQG$em" role="3hIK18">
           <property role="3KPFLx" value="1" />
           <property role="3KBtP8" value="true" />
           <property role="3KBtPb" value="true" />
-          <ref role="3OUP0O" node="3gufdqYQRRD" />
-          <node concept="3TlMh9" id="3gufdqYR4QR" role="3uutUd">
+          <ref role="3OUP0O" node="3gufdqYRdnI" />
+          <node concept="3TlMh9" id="7H4HPFQG$en" role="3uutUd">
             <property role="2hmy$m" value="1" />
           </node>
-          <node concept="3b6qkQ" id="3gufdqYR4QS" role="3V7RWR">
-            <property role="$nhwW" value="195.7581" />
+          <node concept="3b6qkQ" id="7H4HPFQG$eo" role="3V7RWR">
+            <property role="$nhwW" value="0.41115" />
           </node>
         </node>
-        <node concept="2$njN2" id="3gufdqYR4QT" role="3hIK18">
+        <node concept="2$njN2" id="7H4HPFQG$ep" role="3hIK18">
           <property role="3KPFLx" value="1" />
           <property role="3KBtP8" value="true" />
           <property role="3KBtPb" value="true" />
-          <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factor" />
-          <node concept="3b6qkQ" id="3gufdqYR4QU" role="3V7RWR">
-            <property role="$nhwW" value="0.18750777832797952" />
+          <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+          <node concept="3b6qkQ" id="7H4HPFQG$eq" role="3V7RWR">
+            <property role="$nhwW" value="0.483703798503028" />
           </node>
         </node>
       </node>
-      <node concept="fUyw_" id="3gufdqYR3SF" role="3faCKd">
-        <node concept="OjmMv" id="3gufdqYR3SG" role="fUymu">
-          <node concept="19SGf9" id="3gufdqYR3SH" role="OjmMu">
-            <node concept="19SUe$" id="3gufdqYR3SI" role="19SJt6" />
+      <node concept="fUyw_" id="7H4HPFQGrrk" role="3faCKd">
+        <node concept="OjmMv" id="7H4HPFQGrrl" role="fUymu">
+          <node concept="19SGf9" id="7H4HPFQGrrm" role="OjmMu">
+            <node concept="19SUe$" id="7H4HPFQGrrn" role="19SJt6" />
           </node>
         </node>
-        <node concept="OjmMv" id="3gufdqYR3SJ" role="fUyBk">
-          <node concept="19SGf9" id="3gufdqYR3SK" role="OjmMu">
-            <node concept="19SUe$" id="3gufdqYR3SL" role="19SJt6" />
+        <node concept="OjmMv" id="7H4HPFQGrro" role="fUyBk">
+          <node concept="19SGf9" id="7H4HPFQGrrp" role="OjmMu">
+            <node concept="19SUe$" id="7H4HPFQGrrq" role="19SJt6" />
           </node>
         </node>
-        <node concept="OjmMv" id="3gufdqYR3SM" role="fUymr">
-          <node concept="19SGf9" id="3gufdqYR3SN" role="OjmMu">
-            <node concept="19SUe$" id="3gufdqYR3SO" role="19SJt6" />
+        <node concept="OjmMv" id="7H4HPFQGrrr" role="fUymr">
+          <node concept="19SGf9" id="7H4HPFQGrrs" role="OjmMu">
+            <node concept="19SUe$" id="7H4HPFQGrrt" role="19SJt6" />
           </node>
         </node>
       </node>
-      <node concept="hYxDO" id="3gufdqYR4s_" role="3faCKd">
+      <node concept="hYxDO" id="7H4HPFQGzRM" role="3faCKd">
         <property role="3u04_E" value="10" />
-        <property role="1ES8eQ" value="true" />
-        <property role="TFyiI" value="b2a50f0951a05677e9a463aa66430da8ee5ccaac&#10;" />
+        <property role="1ES8eQ" value="false" />
+        <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
         <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
         <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
         <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
-        <node concept="2leUMr" id="3gufdqYR4sA" role="lGtFl">
-          <node concept="1jS7UI" id="3gufdqYR4sB" role="1jS7UE">
-            <property role="1jS7UH" value="8378b8112eeba6f2d65a54f91e1e6ed3" />
-          </node>
-        </node>
-        <node concept="3e3F8N" id="3gufdqYR4tv" role="hYxDS">
+        <node concept="2leUMr" id="7H4HPFQGzRN" role="lGtFl" />
+        <node concept="3e3F8N" id="7H4HPFQGzSB" role="hYxDS">
           <property role="3u04_E" value="10" />
-          <property role="TFyiI" value="b2a50f0951a05677e9a463aa66430da8ee5ccaac&#10;" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
           <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
           <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
           <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
-          <node concept="3hIKbI" id="3gufdqYR4tw" role="3hIK18">
+          <node concept="3hIKbI" id="7H4HPFQGzSC" role="3hIK18">
             <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="false" />
+            <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
             <ref role="3hIKbD" node="7UBUYoGZCPC" />
           </node>
-          <node concept="3KA0h5" id="3gufdqYR4tx" role="3hIK18">
+          <node concept="3KA0h5" id="7H4HPFQGzSD" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
-            <ref role="3KA0h0" node="3yjppz2RwwJ" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4ty" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="2" />
-            <ref role="3KA0h0" node="78NQ33CmMEB" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4tz" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="false" />
-            <property role="3KPFLx" value="3" />
             <ref role="3KA0h0" node="3gufdqYR0tO" />
           </node>
-          <node concept="3OUPuK" id="3gufdqYR4t$" role="3hIK18">
+          <node concept="3OUPuK" id="7H4HPFQGzSE" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="3OUP0O" node="3gufdqYQRRD" />
-            <node concept="3TlMh9" id="3gufdqYR4t_" role="3uutUd">
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="7H4HPFQGzSF" role="3uutUd">
               <property role="2hmy$m" value="1" />
             </node>
-            <node concept="3b6qkQ" id="3gufdqYR4tA" role="3V7RWR">
-              <property role="$nhwW" value="209.6237" />
+            <node concept="3b6qkQ" id="7H4HPFQGzSG" role="3V7RWR">
+              <property role="$nhwW" value="0.59709" />
             </node>
           </node>
-          <node concept="2$njN2" id="3gufdqYR4tB" role="3hIK18">
+          <node concept="2$njN2" id="7H4HPFQGzSH" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factor" />
-            <node concept="3b6qkQ" id="3gufdqYR4tC" role="3V7RWR">
-              <property role="$nhwW" value="0.20078902832797954" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="7H4HPFQGzSI" role="3V7RWR">
+              <property role="$nhwW" value="0.702453798503028" />
             </node>
           </node>
-          <node concept="2leUMr" id="3gufdqYR4tD" role="lGtFl">
-            <node concept="1jS7UI" id="3gufdqYR4tE" role="1jS7UE">
-              <property role="1jS7UH" value="0b245240d47ec1c52ebb42ca6b4e6d70" />
+          <node concept="2leUMr" id="7H4HPFQGzSJ" role="lGtFl">
+            <node concept="1jS7UI" id="7H4HPFQGzSK" role="1jS7UE">
+              <property role="1jS7UH" value="071c64b07e69eb72e20e100ef610dc37" />
             </node>
           </node>
-          <node concept="3eYjYQ" id="3gufdqYR4tF" role="3eYheP">
-            <property role="3ZUXHS" value="1495765621958" />
+          <node concept="3eYjYQ" id="7H4HPFQGzSL" role="3eYheP">
+            <property role="3ZUXHS" value="1495772087535" />
             <property role="3ZUYiW" value="NEATdemo" />
-            <property role="eaKhh" value="failed" />
+            <property role="eaKhh" value="success" />
           </node>
         </node>
-        <node concept="3e3F8N" id="3gufdqYR4uc" role="hYxDS">
+        <node concept="3e3F8N" id="7H4HPFQGzTo" role="hYxDS">
           <property role="3u04_E" value="10" />
-          <property role="TFyiI" value="b2a50f0951a05677e9a463aa66430da8ee5ccaac&#10;" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
           <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
           <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
           <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
-          <node concept="3hIKbI" id="3gufdqYR4ud" role="3hIK18">
+          <node concept="3hIKbI" id="7H4HPFQGzTp" role="3hIK18">
             <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="false" />
+            <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
             <ref role="3hIKbD" node="7UBUYoGZCPC" />
           </node>
-          <node concept="3KA0h5" id="3gufdqYR4ue" role="3hIK18">
+          <node concept="3KA0h5" id="7H4HPFQGzTq" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
-            <ref role="3KA0h0" node="3yjppz2RwwJ" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4uf" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="2" />
-            <ref role="3KA0h0" node="78NQ33CmMEB" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4ug" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="false" />
-            <property role="3KPFLx" value="3" />
             <ref role="3KA0h0" node="3gufdqYR0tO" />
           </node>
-          <node concept="3OUPuK" id="3gufdqYR4uh" role="3hIK18">
+          <node concept="3OUPuK" id="7H4HPFQGzTr" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="3OUP0O" node="3gufdqYQRRD" />
-            <node concept="3TlMh9" id="3gufdqYR4ui" role="3uutUd">
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="7H4HPFQGzTs" role="3uutUd">
               <property role="2hmy$m" value="1" />
             </node>
-            <node concept="3b6qkQ" id="3gufdqYR4uj" role="3V7RWR">
-              <property role="$nhwW" value="887.4" />
-            </node>
-          </node>
-          <node concept="2$njN2" id="3gufdqYR4uk" role="3hIK18">
-            <property role="3KPFLx" value="1" />
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factor" />
-            <node concept="3b6qkQ" id="3gufdqYR4ul" role="3V7RWR">
+            <node concept="3b6qkQ" id="7H4HPFQGzTt" role="3V7RWR">
               <property role="$nhwW" value="0.85" />
             </node>
           </node>
-          <node concept="2leUMr" id="3gufdqYR4um" role="lGtFl">
-            <node concept="1jS7UI" id="3gufdqYR4un" role="1jS7UE">
-              <property role="1jS7UH" value="dc00bb147d779f40a2f4ad5217545cee" />
+          <node concept="2$njN2" id="7H4HPFQGzTu" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="7H4HPFQGzTv" role="3V7RWR">
+              <property role="$nhwW" value="1.0" />
             </node>
           </node>
-          <node concept="3eYjYQ" id="3gufdqYR4uo" role="3eYheP">
-            <property role="3ZUXHS" value="1495765623138" />
+          <node concept="2leUMr" id="7H4HPFQGzTw" role="lGtFl">
+            <node concept="1jS7UI" id="7H4HPFQGzTx" role="1jS7UE">
+              <property role="1jS7UH" value="581404986e08b52dfff122426fe62082" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="7H4HPFQGzTy" role="3eYheP">
+            <property role="3ZUXHS" value="1495772088585" />
             <property role="3ZUYiW" value="NEATdemo" />
-            <property role="eaKhh" value="failed" />
+            <property role="eaKhh" value="success" />
           </node>
         </node>
-        <node concept="3e3F8N" id="3gufdqYR4vj" role="hYxDS">
+        <node concept="3e3F8N" id="7H4HPFQGzUl" role="hYxDS">
           <property role="3u04_E" value="10" />
-          <property role="TFyiI" value="b2a50f0951a05677e9a463aa66430da8ee5ccaac&#10;" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
           <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
           <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
           <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
-          <node concept="3hIKbI" id="3gufdqYR4vk" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="1" />
-            <ref role="3hIKbD" node="7UBUYoGZCPC" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4vl" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="false" />
-            <property role="3KPFLx" value="1" />
-            <ref role="3KA0h0" node="3yjppz2RwwJ" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4vm" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="2" />
-            <ref role="3KA0h0" node="78NQ33CmMEB" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4vn" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="3" />
-            <ref role="3KA0h0" node="3gufdqYR0tO" />
-          </node>
-          <node concept="3OUPuK" id="3gufdqYR4vo" role="3hIK18">
-            <property role="3KPFLx" value="1" />
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <ref role="3OUP0O" node="3gufdqYQRRD" />
-            <node concept="3TlMh9" id="3gufdqYR4vp" role="3uutUd">
-              <property role="2hmy$m" value="1" />
-            </node>
-            <node concept="3b6qkQ" id="3gufdqYR4vq" role="3V7RWR">
-              <property role="$nhwW" value="-0" />
-            </node>
-          </node>
-          <node concept="2$njN2" id="3gufdqYR4vr" role="3hIK18">
-            <property role="3KPFLx" value="1" />
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factor" />
-            <node concept="3b6qkQ" id="3gufdqYR4vs" role="3V7RWR">
-              <property role="$nhwW" value="0.0" />
-            </node>
-          </node>
-          <node concept="2leUMr" id="3gufdqYR4vt" role="lGtFl">
-            <node concept="1jS7UI" id="3gufdqYR4vu" role="1jS7UE">
-              <property role="1jS7UH" value="51d3ced496d06f9fe2e2c81f8deb1489" />
-            </node>
-          </node>
-          <node concept="3eYjYQ" id="3gufdqYR4vv" role="3eYheP">
-            <property role="3ZUXHS" value="1495765624177" />
-            <property role="3ZUYiW" value="NEATdemo" />
-            <property role="eaKhh" value="failed" />
-          </node>
-        </node>
-        <node concept="3e3F8N" id="3gufdqYR4wO" role="hYxDS">
-          <property role="3u04_E" value="10" />
-          <property role="TFyiI" value="b2a50f0951a05677e9a463aa66430da8ee5ccaac&#10;" />
-          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
-          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
-          <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
-          <node concept="3hIKbI" id="3gufdqYR4wP" role="3hIK18">
+          <node concept="3hIKbI" id="7H4HPFQGzUm" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="false" />
             <property role="3KPFLx" value="1" />
             <ref role="3hIKbD" node="7UBUYoGZCPC" />
           </node>
-          <node concept="3KA0h5" id="3gufdqYR4wQ" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="1" />
-            <ref role="3KA0h0" node="3yjppz2RwwJ" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4wR" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="2" />
-            <ref role="3KA0h0" node="78NQ33CmMEB" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4wS" role="3hIK18">
+          <node concept="3KA0h5" id="7H4HPFQGzUn" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="false" />
-            <property role="3KPFLx" value="3" />
+            <property role="3KPFLx" value="1" />
             <ref role="3KA0h0" node="3gufdqYR0tO" />
           </node>
-          <node concept="3OUPuK" id="3gufdqYR4wT" role="3hIK18">
+          <node concept="3OUPuK" id="7H4HPFQGzUo" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="3OUP0O" node="3gufdqYQRRD" />
-            <node concept="3TlMh9" id="3gufdqYR4wU" role="3uutUd">
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="7H4HPFQGzUp" role="3uutUd">
               <property role="2hmy$m" value="1" />
             </node>
-            <node concept="3b6qkQ" id="3gufdqYR4wV" role="3V7RWR">
-              <property role="$nhwW" value="431.4737" />
+            <node concept="3b6qkQ" id="7H4HPFQGzUq" role="3V7RWR">
+              <property role="$nhwW" value="0.17209" />
             </node>
           </node>
-          <node concept="2$njN2" id="3gufdqYR4wW" role="3hIK18">
+          <node concept="2$njN2" id="7H4HPFQGzUr" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factor" />
-            <node concept="3b6qkQ" id="3gufdqYR4wX" role="3V7RWR">
-              <property role="$nhwW" value="0.41328902832797954" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="7H4HPFQGzUs" role="3V7RWR">
+              <property role="$nhwW" value="0.20245379850302803" />
             </node>
           </node>
-          <node concept="2leUMr" id="3gufdqYR4wY" role="lGtFl">
-            <node concept="1jS7UI" id="3gufdqYR4wZ" role="1jS7UE">
-              <property role="1jS7UH" value="6e278d5f23ace1c43b2c07e16c868afb" />
+          <node concept="2leUMr" id="7H4HPFQGzUt" role="lGtFl">
+            <node concept="1jS7UI" id="7H4HPFQGzUu" role="1jS7UE">
+              <property role="1jS7UH" value="b732fdc06e04ec412ae5a1e0b5158fe5" />
             </node>
           </node>
-          <node concept="3eYjYQ" id="3gufdqYR4x0" role="3eYheP">
-            <property role="3ZUXHS" value="1495765625234" />
+          <node concept="3eYjYQ" id="7H4HPFQGzUv" role="3eYheP">
+            <property role="3ZUXHS" value="1495772089716" />
             <property role="3ZUYiW" value="NEATdemo" />
             <property role="eaKhh" value="failed" />
           </node>
         </node>
-        <node concept="3e3F8N" id="3gufdqYR4yJ" role="hYxDS">
+        <node concept="3e3F8N" id="7H4HPFQGzVC" role="hYxDS">
           <property role="3u04_E" value="10" />
-          <property role="TFyiI" value="b2a50f0951a05677e9a463aa66430da8ee5ccaac&#10;" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
           <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
           <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
           <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
-          <node concept="3hIKbI" id="3gufdqYR4yK" role="3hIK18">
+          <node concept="3hIKbI" id="7H4HPFQGzVD" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
             <ref role="3hIKbD" node="7UBUYoGZCPC" />
           </node>
-          <node concept="3KA0h5" id="3gufdqYR4yL" role="3hIK18">
+          <node concept="3KA0h5" id="7H4HPFQGzVE" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
-            <ref role="3KA0h0" node="3yjppz2RwwJ" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4yM" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="2" />
-            <ref role="3KA0h0" node="78NQ33CmMEB" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4yN" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="3" />
             <ref role="3KA0h0" node="3gufdqYR0tO" />
           </node>
-          <node concept="3OUPuK" id="3gufdqYR4yO" role="3hIK18">
+          <node concept="3OUPuK" id="7H4HPFQGzVF" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="3OUP0O" node="3gufdqYQRRD" />
-            <node concept="3TlMh9" id="3gufdqYR4yP" role="3uutUd">
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="7H4HPFQGzVG" role="3uutUd">
               <property role="2hmy$m" value="1" />
             </node>
-            <node concept="3b6qkQ" id="3gufdqYR4yQ" role="3V7RWR">
-              <property role="$nhwW" value="98.6987" />
+            <node concept="3b6qkQ" id="7H4HPFQGzVH" role="3V7RWR">
+              <property role="$nhwW" value="0.80959" />
             </node>
           </node>
-          <node concept="2$njN2" id="3gufdqYR4yR" role="3hIK18">
+          <node concept="2$njN2" id="7H4HPFQGzVI" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factor" />
-            <node concept="3b6qkQ" id="3gufdqYR4yS" role="3V7RWR">
-              <property role="$nhwW" value="0.09453902832797954" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="7H4HPFQGzVJ" role="3V7RWR">
+              <property role="$nhwW" value="0.952453798503028" />
             </node>
           </node>
-          <node concept="2leUMr" id="3gufdqYR4yT" role="lGtFl">
-            <node concept="1jS7UI" id="3gufdqYR4yU" role="1jS7UE">
-              <property role="1jS7UH" value="4b4ddd30cfb09757cf4d55965ee877bd" />
+          <node concept="2leUMr" id="7H4HPFQGzVK" role="lGtFl">
+            <node concept="1jS7UI" id="7H4HPFQGzVL" role="1jS7UE">
+              <property role="1jS7UH" value="a8578502dbd26d7e7e97021c75f52693" />
             </node>
           </node>
-          <node concept="3eYjYQ" id="3gufdqYR4yV" role="3eYheP">
-            <property role="3ZUXHS" value="1495765626284" />
+          <node concept="3eYjYQ" id="7H4HPFQGzVM" role="3eYheP">
+            <property role="3ZUXHS" value="1495772090802" />
             <property role="3ZUYiW" value="NEATdemo" />
             <property role="eaKhh" value="success" />
           </node>
         </node>
-        <node concept="3e3F8N" id="3gufdqYR4_4" role="hYxDS">
+        <node concept="3e3F8N" id="7H4HPFQGzXh" role="hYxDS">
           <property role="3u04_E" value="10" />
-          <property role="TFyiI" value="b2a50f0951a05677e9a463aa66430da8ee5ccaac&#10;" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
           <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
           <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
           <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
-          <node concept="3hIKbI" id="3gufdqYR4_5" role="3hIK18">
+          <node concept="3hIKbI" id="7H4HPFQGzXi" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
             <ref role="3hIKbD" node="7UBUYoGZCPC" />
           </node>
-          <node concept="3KA0h5" id="3gufdqYR4_6" role="3hIK18">
+          <node concept="3KA0h5" id="7H4HPFQGzXj" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
-            <ref role="3KA0h0" node="3yjppz2RwwJ" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4_7" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="2" />
-            <ref role="3KA0h0" node="78NQ33CmMEB" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4_8" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="3" />
             <ref role="3KA0h0" node="3gufdqYR0tO" />
           </node>
-          <node concept="3OUPuK" id="3gufdqYR4_9" role="3hIK18">
+          <node concept="3OUPuK" id="7H4HPFQGzXk" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="3OUP0O" node="3gufdqYQRRD" />
-            <node concept="3TlMh9" id="3gufdqYR4_a" role="3uutUd">
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="7H4HPFQGzXl" role="3uutUd">
               <property role="2hmy$m" value="1" />
             </node>
-            <node concept="3b6qkQ" id="3gufdqYR4_b" role="3V7RWR">
-              <property role="$nhwW" value="154.1612" />
+            <node concept="3b6qkQ" id="7H4HPFQGzXm" role="3V7RWR">
+              <property role="$nhwW" value="0.49084" />
             </node>
           </node>
-          <node concept="2$njN2" id="3gufdqYR4_c" role="3hIK18">
+          <node concept="2$njN2" id="7H4HPFQGzXn" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factor" />
-            <node concept="3b6qkQ" id="3gufdqYR4_d" role="3V7RWR">
-              <property role="$nhwW" value="0.14766402832797954" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="7H4HPFQGzXo" role="3V7RWR">
+              <property role="$nhwW" value="0.577453798503028" />
             </node>
           </node>
-          <node concept="2leUMr" id="3gufdqYR4_e" role="lGtFl">
-            <node concept="1jS7UI" id="3gufdqYR4_f" role="1jS7UE">
-              <property role="1jS7UH" value="653c1083e808504ce840fa112946d227" />
+          <node concept="2leUMr" id="7H4HPFQGzXp" role="lGtFl">
+            <node concept="1jS7UI" id="7H4HPFQGzXq" role="1jS7UE">
+              <property role="1jS7UH" value="05a7ff388f9e734975000d7399c27bfe" />
             </node>
           </node>
-          <node concept="3eYjYQ" id="3gufdqYR4_g" role="3eYheP">
-            <property role="3ZUXHS" value="1495765627371" />
+          <node concept="3eYjYQ" id="7H4HPFQGzXr" role="3eYheP">
+            <property role="3ZUXHS" value="1495772091803" />
             <property role="3ZUYiW" value="NEATdemo" />
             <property role="eaKhh" value="success" />
           </node>
         </node>
-        <node concept="3e3F8N" id="3gufdqYR4BN" role="hYxDS">
+        <node concept="3e3F8N" id="7H4HPFQGzZg" role="hYxDS">
           <property role="3u04_E" value="10" />
-          <property role="TFyiI" value="b2a50f0951a05677e9a463aa66430da8ee5ccaac&#10;" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
           <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
           <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
           <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
-          <node concept="3hIKbI" id="3gufdqYR4BO" role="3hIK18">
+          <node concept="3hIKbI" id="7H4HPFQGzZh" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="false" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3hIKbD" node="7UBUYoGZCPC" />
+          </node>
+          <node concept="3KA0h5" id="7H4HPFQGzZi" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="false" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3KA0h0" node="3gufdqYR0tO" />
+          </node>
+          <node concept="3OUPuK" id="7H4HPFQGzZj" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="7H4HPFQGzZk" role="3uutUd">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3b6qkQ" id="7H4HPFQGzZl" role="3V7RWR">
+              <property role="$nhwW" value="0.38459" />
+            </node>
+          </node>
+          <node concept="2$njN2" id="7H4HPFQGzZm" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="7H4HPFQGzZn" role="3V7RWR">
+              <property role="$nhwW" value="0.452453798503028" />
+            </node>
+          </node>
+          <node concept="2leUMr" id="7H4HPFQGzZo" role="lGtFl">
+            <node concept="1jS7UI" id="7H4HPFQGzZp" role="1jS7UE">
+              <property role="1jS7UH" value="faab6fb5ba8d48a83f56f10ed19dec5f" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="7H4HPFQGzZq" role="3eYheP">
+            <property role="3ZUXHS" value="1495772092701" />
+            <property role="3ZUYiW" value="NEATdemo" />
+            <property role="eaKhh" value="failed" />
+          </node>
+        </node>
+        <node concept="3e3F8N" id="7H4HPFQG$1_" role="hYxDS">
+          <property role="3u04_E" value="10" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+          <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
+          <node concept="3hIKbI" id="7H4HPFQG$1A" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
             <ref role="3hIKbD" node="7UBUYoGZCPC" />
           </node>
-          <node concept="3KA0h5" id="3gufdqYR4BP" role="3hIK18">
+          <node concept="3KA0h5" id="7H4HPFQG$1B" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
-            <ref role="3KA0h0" node="3yjppz2RwwJ" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4BQ" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="2" />
-            <ref role="3KA0h0" node="78NQ33CmMEB" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4BR" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="3" />
             <ref role="3KA0h0" node="3gufdqYR0tO" />
           </node>
-          <node concept="3OUPuK" id="3gufdqYR4BS" role="3hIK18">
+          <node concept="3OUPuK" id="7H4HPFQG$1C" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="3OUP0O" node="3gufdqYQRRD" />
-            <node concept="3TlMh9" id="3gufdqYR4BT" role="3uutUd">
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="7H4HPFQG$1D" role="3uutUd">
               <property role="2hmy$m" value="1" />
             </node>
-            <node concept="3b6qkQ" id="3gufdqYR4BU" role="3V7RWR">
-              <property role="$nhwW" value="126.43" />
+            <node concept="3b6qkQ" id="7H4HPFQG$1E" role="3V7RWR">
+              <property role="$nhwW" value="0.54396" />
             </node>
           </node>
-          <node concept="2$njN2" id="3gufdqYR4BV" role="3hIK18">
+          <node concept="2$njN2" id="7H4HPFQG$1F" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factor" />
-            <node concept="3b6qkQ" id="3gufdqYR4BW" role="3V7RWR">
-              <property role="$nhwW" value="0.12110152832797953" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="7H4HPFQG$1G" role="3V7RWR">
+              <property role="$nhwW" value="0.639953798503028" />
             </node>
           </node>
-          <node concept="2leUMr" id="3gufdqYR4BX" role="lGtFl">
-            <node concept="1jS7UI" id="3gufdqYR4BY" role="1jS7UE">
-              <property role="1jS7UH" value="2c3ada77a0aebe65fef3ab118a625109" />
+          <node concept="2leUMr" id="7H4HPFQG$1H" role="lGtFl">
+            <node concept="1jS7UI" id="7H4HPFQG$1I" role="1jS7UE">
+              <property role="1jS7UH" value="dd0dca3cde8f3fa1ecc29a50f569098a" />
             </node>
           </node>
-          <node concept="3eYjYQ" id="3gufdqYR4BZ" role="3eYheP">
-            <property role="3ZUXHS" value="1495765628434" />
+          <node concept="3eYjYQ" id="7H4HPFQG$1J" role="3eYheP">
+            <property role="3ZUXHS" value="1495772093642" />
             <property role="3ZUYiW" value="NEATdemo" />
             <property role="eaKhh" value="success" />
           </node>
         </node>
-        <node concept="3e3F8N" id="3gufdqYR4EW" role="hYxDS">
+        <node concept="3e3F8N" id="7H4HPFQG$4g" role="hYxDS">
           <property role="3u04_E" value="10" />
-          <property role="TFyiI" value="b2a50f0951a05677e9a463aa66430da8ee5ccaac&#10;" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
           <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
           <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
           <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
-          <node concept="3hIKbI" id="3gufdqYR4EX" role="3hIK18">
+          <node concept="3hIKbI" id="7H4HPFQG$4h" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
             <ref role="3hIKbD" node="7UBUYoGZCPC" />
           </node>
-          <node concept="3KA0h5" id="3gufdqYR4EY" role="3hIK18">
+          <node concept="3KA0h5" id="7H4HPFQG$4i" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
-            <ref role="3KA0h0" node="3yjppz2RwwJ" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4EZ" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="2" />
-            <ref role="3KA0h0" node="78NQ33CmMEB" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4F0" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="3" />
             <ref role="3KA0h0" node="3gufdqYR0tO" />
           </node>
-          <node concept="3OUPuK" id="3gufdqYR4F1" role="3hIK18">
+          <node concept="3OUPuK" id="7H4HPFQG$4j" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="3OUP0O" node="3gufdqYQRRD" />
-            <node concept="3TlMh9" id="3gufdqYR4F2" role="3uutUd">
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="7H4HPFQG$4k" role="3uutUd">
               <property role="2hmy$m" value="1" />
             </node>
-            <node concept="3b6qkQ" id="3gufdqYR4F3" role="3V7RWR">
-              <property role="$nhwW" value="168.0269" />
+            <node concept="3b6qkQ" id="7H4HPFQG$4l" role="3V7RWR">
+              <property role="$nhwW" value="0.46427" />
             </node>
           </node>
-          <node concept="2$njN2" id="3gufdqYR4F4" role="3hIK18">
+          <node concept="2$njN2" id="7H4HPFQG$4m" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factor" />
-            <node concept="3b6qkQ" id="3gufdqYR4F5" role="3V7RWR">
-              <property role="$nhwW" value="0.16094527832797953" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="7H4HPFQG$4n" role="3V7RWR">
+              <property role="$nhwW" value="0.546203798503028" />
             </node>
           </node>
-          <node concept="2leUMr" id="3gufdqYR4F6" role="lGtFl">
-            <node concept="1jS7UI" id="3gufdqYR4F7" role="1jS7UE">
-              <property role="1jS7UH" value="7ccffaccbd9108db806ae74feff5a445" />
+          <node concept="2leUMr" id="7H4HPFQG$4o" role="lGtFl">
+            <node concept="1jS7UI" id="7H4HPFQG$4p" role="1jS7UE">
+              <property role="1jS7UH" value="4061cf448704413fa82f9a8f538ad32f" />
             </node>
           </node>
-          <node concept="3eYjYQ" id="3gufdqYR4F8" role="3eYheP">
-            <property role="3ZUXHS" value="1495765629492" />
+          <node concept="3eYjYQ" id="7H4HPFQG$4q" role="3eYheP">
+            <property role="3ZUXHS" value="1495772094520" />
             <property role="3ZUYiW" value="NEATdemo" />
             <property role="eaKhh" value="success" />
           </node>
         </node>
-        <node concept="3e3F8N" id="3gufdqYR4Iv" role="hYxDS">
+        <node concept="3e3F8N" id="7H4HPFQG$7h" role="hYxDS">
           <property role="3u04_E" value="10" />
-          <property role="TFyiI" value="b2a50f0951a05677e9a463aa66430da8ee5ccaac&#10;" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
           <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
           <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
           <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
-          <node concept="3hIKbI" id="3gufdqYR4Iw" role="3hIK18">
+          <node concept="3hIKbI" id="7H4HPFQG$7i" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
             <ref role="3hIKbD" node="7UBUYoGZCPC" />
           </node>
-          <node concept="3KA0h5" id="3gufdqYR4Ix" role="3hIK18">
+          <node concept="3KA0h5" id="7H4HPFQG$7j" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
-            <ref role="3KA0h0" node="3yjppz2RwwJ" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4Iy" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="2" />
-            <ref role="3KA0h0" node="78NQ33CmMEB" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4Iz" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="3" />
             <ref role="3KA0h0" node="3gufdqYR0tO" />
           </node>
-          <node concept="3OUPuK" id="3gufdqYR4I$" role="3hIK18">
+          <node concept="3OUPuK" id="7H4HPFQG$7k" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="3OUP0O" node="3gufdqYQRRD" />
-            <node concept="3TlMh9" id="3gufdqYR4I_" role="3uutUd">
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="7H4HPFQG$7l" role="3uutUd">
               <property role="2hmy$m" value="1" />
             </node>
-            <node concept="3b6qkQ" id="3gufdqYR4IA" role="3V7RWR">
-              <property role="$nhwW" value="181.8925" />
+            <node concept="3b6qkQ" id="7H4HPFQG$7m" role="3V7RWR">
+              <property role="$nhwW" value="0.43771" />
             </node>
           </node>
-          <node concept="2$njN2" id="3gufdqYR4IB" role="3hIK18">
+          <node concept="2$njN2" id="7H4HPFQG$7n" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factor" />
-            <node concept="3b6qkQ" id="3gufdqYR4IC" role="3V7RWR">
-              <property role="$nhwW" value="0.17422652832797952" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="7H4HPFQG$7o" role="3V7RWR">
+              <property role="$nhwW" value="0.514953798503028" />
             </node>
           </node>
-          <node concept="2leUMr" id="3gufdqYR4ID" role="lGtFl">
-            <node concept="1jS7UI" id="3gufdqYR4IE" role="1jS7UE">
-              <property role="1jS7UH" value="57c7b6f61a09f649abb5e79e40850c36" />
+          <node concept="2leUMr" id="7H4HPFQG$7p" role="lGtFl">
+            <node concept="1jS7UI" id="7H4HPFQG$7q" role="1jS7UE">
+              <property role="1jS7UH" value="e7e2b0066dbdc7efc11c4dbded6266cb" />
             </node>
           </node>
-          <node concept="3eYjYQ" id="3gufdqYR4IF" role="3eYheP">
-            <property role="3ZUXHS" value="1495765630522" />
+          <node concept="3eYjYQ" id="7H4HPFQG$7r" role="3eYheP">
+            <property role="3ZUXHS" value="1495772095437" />
             <property role="3ZUYiW" value="NEATdemo" />
             <property role="eaKhh" value="success" />
           </node>
         </node>
-        <node concept="3e3F8N" id="3gufdqYR4Ms" role="hYxDS">
+        <node concept="3e3F8N" id="7H4HPFQG$aC" role="hYxDS">
           <property role="3u04_E" value="10" />
-          <property role="TFyiI" value="b2a50f0951a05677e9a463aa66430da8ee5ccaac&#10;" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
           <property role="2P4i$1" value="true" />
           <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
           <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
           <ref role="9I8ot" node="7UBUYoGZDfu" resolve="Testing" />
-          <node concept="3hIKbI" id="3gufdqYR4Mt" role="3hIK18">
+          <node concept="3hIKbI" id="7H4HPFQG$aD" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
             <ref role="3hIKbD" node="7UBUYoGZCPC" />
           </node>
-          <node concept="3KA0h5" id="3gufdqYR4Mu" role="3hIK18">
+          <node concept="3KA0h5" id="7H4HPFQG$aE" role="3hIK18">
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
             <property role="3KPFLx" value="1" />
-            <ref role="3KA0h0" node="3yjppz2RwwJ" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4Mv" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="2" />
-            <ref role="3KA0h0" node="78NQ33CmMEB" />
-          </node>
-          <node concept="3KA0h5" id="3gufdqYR4Mw" role="3hIK18">
-            <property role="3KBtP8" value="true" />
-            <property role="3KBtPb" value="true" />
-            <property role="3KPFLx" value="3" />
             <ref role="3KA0h0" node="3gufdqYR0tO" />
           </node>
-          <node concept="3OUPuK" id="3gufdqYR4Mx" role="3hIK18">
+          <node concept="3OUPuK" id="7H4HPFQG$aF" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="3OUP0O" node="3gufdqYQRRD" />
-            <node concept="3TlMh9" id="3gufdqYR4My" role="3uutUd">
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="7H4HPFQG$aG" role="3uutUd">
               <property role="2hmy$m" value="1" />
             </node>
-            <node concept="3b6qkQ" id="3gufdqYR4Mz" role="3V7RWR">
-              <property role="$nhwW" value="195.7581" />
+            <node concept="3b6qkQ" id="7H4HPFQG$aH" role="3V7RWR">
+              <property role="$nhwW" value="0.41115" />
             </node>
           </node>
-          <node concept="2$njN2" id="3gufdqYR4M$" role="3hIK18">
+          <node concept="2$njN2" id="7H4HPFQG$aI" role="3hIK18">
             <property role="3KPFLx" value="1" />
             <property role="3KBtP8" value="true" />
             <property role="3KBtPb" value="true" />
-            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factor" />
-            <node concept="3b6qkQ" id="3gufdqYR4M_" role="3V7RWR">
-              <property role="$nhwW" value="0.18750777832797952" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="7H4HPFQG$aJ" role="3V7RWR">
+              <property role="$nhwW" value="0.483703798503028" />
             </node>
           </node>
-          <node concept="2leUMr" id="3gufdqYR4MA" role="lGtFl">
-            <node concept="1jS7UI" id="3gufdqYR4MB" role="1jS7UE">
-              <property role="1jS7UH" value="e2bb9d26761a7c1fb257f39f48568694" />
+          <node concept="2leUMr" id="7H4HPFQG$aK" role="lGtFl">
+            <node concept="1jS7UI" id="7H4HPFQG$aL" role="1jS7UE">
+              <property role="1jS7UH" value="b023d6bf917598e3ec5441a211db0c58" />
             </node>
           </node>
-          <node concept="3eYjYQ" id="3gufdqYR4MC" role="3eYheP">
-            <property role="3ZUXHS" value="1495765631595" />
+          <node concept="3eYjYQ" id="7H4HPFQG$aM" role="3eYheP">
+            <property role="3ZUXHS" value="1495772096340" />
             <property role="3ZUYiW" value="NEATdemo" />
             <property role="eaKhh" value="success" />
           </node>
         </node>
-        <node concept="3eYjYQ" id="3gufdqYR4QL" role="3eYheP">
-          <property role="3ZUXHS" value="1495765631595" />
+        <node concept="3eYjYQ" id="7H4HPFQG$ej" role="3eYheP">
+          <property role="3ZUXHS" value="1495772096340" />
+          <property role="3ZUYiW" value="NEATdemo" />
+          <property role="eaKhh" value="failed" />
+          <property role="gvzWt" value="80" />
+        </node>
+      </node>
+    </node>
+    <node concept="3fbQ3u" id="3DzEEzMnn_y" role="3fbPIo">
+      <property role="2DRQuN" value="1494838825622" />
+      <property role="2DXwbs" value="NEATdemo" />
+      <property role="1ylvJX" value="Testing2" />
+      <property role="TrG5h" value="Testing2" />
+      <node concept="1K7B1z" id="3DzEEzMnn_z" role="22Mr8z">
+        <node concept="eaKiz" id="3DzEEzMnn_$" role="eaKbh">
+          <property role="3ZUXHT" value="1495773798077" />
+          <property role="3ZUYiX" value="NEATdemo" />
+          <property role="eaKhi" value="success" />
+          <node concept="OjmMv" id="3DzEEzMnn__" role="eaKhv">
+            <node concept="19SGf9" id="3DzEEzMnn_A" role="OjmMu">
+              <node concept="19SUe$" id="3DzEEzMnn_B" role="19SJt6" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="GmGrk" id="3DzEEzMnn_C" role="GmGcz">
+        <node concept="1_0LV8" id="3DzEEzMnn_D" role="1_0VJ0">
+          <node concept="19SGf9" id="3DzEEzMnn_E" role="1_0LWR">
+            <node concept="19SUe$" id="3DzEEzMnn_F" role="19SJt6" />
+          </node>
+        </node>
+      </node>
+      <node concept="Idoat" id="3DzEEzMnn_G" role="3faCKd">
+        <property role="3u04_E" value="10" />
+        <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+        <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+        <node concept="IaViD" id="3DzEEzMnn_H" role="lGtFl">
+          <property role="IaT$I" value="true" />
+        </node>
+        <node concept="3ebvqV" id="3DzEEzMnn_P" role="lGtFl">
+          <ref role="3fKOro" node="3DzEEzMnn_y" resolve="Testing2" />
+        </node>
+        <node concept="2leUMr" id="3DzEEzMnn_Q" role="lGtFl">
+          <node concept="1jS7UI" id="3DzEEzMnn_R" role="1jS7UE">
+            <property role="1jS7UH" value="8d75c0bccf91df01362afc8ac244a49e" />
+          </node>
+        </node>
+        <node concept="3hIKbI" id="3DzEEzMnpL8" role="3hIK18">
+          <property role="3KBtP8" value="true" />
+          <property role="3KBtPb" value="true" />
+          <property role="3KPFLx" value="1" />
+          <ref role="3hIKbD" node="7UBUYoGZCPC" />
+        </node>
+        <node concept="3KA0h5" id="3DzEEzMnpL9" role="3hIK18">
+          <property role="3KBtP8" value="true" />
+          <property role="3KBtPb" value="true" />
+          <property role="3KPFLx" value="1" />
+          <ref role="3KA0h0" node="3gufdqYR0tO" />
+        </node>
+        <node concept="3OUPuK" id="3DzEEzMnpLa" role="3hIK18">
+          <property role="3KPFLx" value="1" />
+          <property role="3KBtP8" value="true" />
+          <property role="3KBtPb" value="true" />
+          <ref role="3OUP0O" node="3gufdqYRdnI" />
+          <node concept="3TlMh9" id="3DzEEzMnpLb" role="3uutUd">
+            <property role="2hmy$m" value="1" />
+          </node>
+          <node concept="3b6qkQ" id="3DzEEzMnpLc" role="3V7RWR">
+            <property role="$nhwW" value="0.41836" />
+          </node>
+        </node>
+        <node concept="2$njN2" id="3DzEEzMnpLd" role="3hIK18">
+          <property role="3KPFLx" value="1" />
+          <property role="3KBtP8" value="true" />
+          <property role="3KBtPb" value="true" />
+          <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+          <node concept="3b6qkQ" id="3DzEEzMnpLe" role="3V7RWR">
+            <property role="$nhwW" value="0.4921875" />
+          </node>
+        </node>
+      </node>
+      <node concept="fUyw_" id="3DzEEzMnnT7" role="3faCKd">
+        <node concept="OjmMv" id="3DzEEzMnnT8" role="fUymu">
+          <node concept="19SGf9" id="3DzEEzMnnT9" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMnnTa" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="OjmMv" id="3DzEEzMnnTb" role="fUyBk">
+          <node concept="19SGf9" id="3DzEEzMnnTc" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMnnTd" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="OjmMv" id="3DzEEzMnnTe" role="fUymr">
+          <node concept="19SGf9" id="3DzEEzMnnTf" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMnnTg" role="19SJt6" />
+          </node>
+        </node>
+      </node>
+      <node concept="hYxDO" id="3DzEEzMnp$S" role="3faCKd">
+        <property role="3u04_E" value="10" />
+        <property role="1ES8eQ" value="false" />
+        <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+        <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+        <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+        <ref role="9I8ot" node="3DzEEzMnn_y" resolve="Testing2" />
+        <node concept="2leUMr" id="3DzEEzMnp$T" role="lGtFl">
+          <node concept="1jS7UI" id="3DzEEzMnp$U" role="1jS7UE">
+            <property role="1jS7UH" value="b023d6bf917598e3ec5441a211db0c58" />
+          </node>
+        </node>
+        <node concept="3e3F8N" id="3DzEEzMnp_m" role="hYxDS">
+          <property role="3u04_E" value="10" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+          <ref role="9I8ot" node="3DzEEzMnn_y" resolve="Testing2" />
+          <node concept="3hIKbI" id="3DzEEzMnp_n" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="false" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3hIKbD" node="7UBUYoGZCPC" />
+          </node>
+          <node concept="3KA0h5" id="3DzEEzMnp_o" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="false" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3KA0h0" node="3gufdqYR0tO" />
+          </node>
+          <node concept="3OUPuK" id="3DzEEzMnp_p" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="3DzEEzMnp_q" role="3uutUd">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3b6qkQ" id="3DzEEzMnp_r" role="3V7RWR">
+              <property role="$nhwW" value="0.1347" />
+            </node>
+          </node>
+          <node concept="2$njN2" id="3DzEEzMnp_s" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="3DzEEzMnp_t" role="3V7RWR">
+              <property role="$nhwW" value="0.1584739333950732" />
+            </node>
+          </node>
+          <node concept="2leUMr" id="3DzEEzMnp_u" role="lGtFl">
+            <node concept="1jS7UI" id="3DzEEzMnp_v" role="1jS7UE">
+              <property role="1jS7UH" value="82e52c47d5f11c3e6fcec79b44d2427f" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="3DzEEzMnp_w" role="3eYheP">
+            <property role="3ZUXHS" value="1495773789622" />
+            <property role="3ZUYiW" value="NEATdemo" />
+            <property role="eaKhh" value="failed" />
+          </node>
+        </node>
+        <node concept="3e3F8N" id="3DzEEzMnp_K" role="hYxDS">
+          <property role="3u04_E" value="10" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+          <ref role="9I8ot" node="3DzEEzMnn_y" resolve="Testing2" />
+          <node concept="3hIKbI" id="3DzEEzMnp_L" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3hIKbD" node="7UBUYoGZCPC" />
+          </node>
+          <node concept="3KA0h5" id="3DzEEzMnp_M" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3KA0h0" node="3gufdqYR0tO" />
+          </node>
+          <node concept="3OUPuK" id="3DzEEzMnp_N" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="3DzEEzMnp_O" role="3uutUd">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3b6qkQ" id="3DzEEzMnp_P" role="3V7RWR">
+              <property role="$nhwW" value="0.85" />
+            </node>
+          </node>
+          <node concept="2$njN2" id="3DzEEzMnp_Q" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="3DzEEzMnp_R" role="3V7RWR">
+              <property role="$nhwW" value="1.0" />
+            </node>
+          </node>
+          <node concept="2leUMr" id="3DzEEzMnp_S" role="lGtFl">
+            <node concept="1jS7UI" id="3DzEEzMnp_T" role="1jS7UE">
+              <property role="1jS7UH" value="581404986e08b52dfff122426fe62082" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="3DzEEzMnp_U" role="3eYheP">
+            <property role="3ZUXHS" value="1495773790571" />
+            <property role="3ZUYiW" value="NEATdemo" />
+            <property role="eaKhh" value="success" />
+          </node>
+        </node>
+        <node concept="3e3F8N" id="3DzEEzMnpAl" role="hYxDS">
+          <property role="3u04_E" value="10" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+          <ref role="9I8ot" node="3DzEEzMnn_y" resolve="Testing2" />
+          <node concept="3hIKbI" id="3DzEEzMnpAm" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3hIKbD" node="7UBUYoGZCPC" />
+          </node>
+          <node concept="3KA0h5" id="3DzEEzMnpAn" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3KA0h0" node="3gufdqYR0tO" />
+          </node>
+          <node concept="3OUPuK" id="3DzEEzMnpAo" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="3DzEEzMnpAp" role="3uutUd">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3b6qkQ" id="3DzEEzMnpAq" role="3V7RWR">
+              <property role="$nhwW" value="0.425" />
+            </node>
+          </node>
+          <node concept="2$njN2" id="3DzEEzMnpAr" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="3DzEEzMnpAs" role="3V7RWR">
+              <property role="$nhwW" value="0.5" />
+            </node>
+          </node>
+          <node concept="2leUMr" id="3DzEEzMnpAt" role="lGtFl">
+            <node concept="1jS7UI" id="3DzEEzMnpAu" role="1jS7UE">
+              <property role="1jS7UH" value="0016451ded4e42100696dec9c31cc8a1" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="3DzEEzMnpAv" role="3eYheP">
+            <property role="3ZUXHS" value="1495773791521" />
+            <property role="3ZUYiW" value="NEATdemo" />
+            <property role="eaKhh" value="success" />
+          </node>
+        </node>
+        <node concept="3e3F8N" id="3DzEEzMnpB5" role="hYxDS">
+          <property role="3u04_E" value="10" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+          <ref role="9I8ot" node="3DzEEzMnn_y" resolve="Testing2" />
+          <node concept="3hIKbI" id="3DzEEzMnpB6" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="false" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3hIKbD" node="7UBUYoGZCPC" />
+          </node>
+          <node concept="3KA0h5" id="3DzEEzMnpB7" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="false" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3KA0h0" node="3gufdqYR0tO" />
+          </node>
+          <node concept="3OUPuK" id="3DzEEzMnpB8" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="3DzEEzMnpB9" role="3uutUd">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3b6qkQ" id="3DzEEzMnpBa" role="3V7RWR">
+              <property role="$nhwW" value="0" />
+            </node>
+          </node>
+          <node concept="2$njN2" id="3DzEEzMnpBb" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="3DzEEzMnpBc" role="3V7RWR">
+              <property role="$nhwW" value="0.0" />
+            </node>
+          </node>
+          <node concept="2leUMr" id="3DzEEzMnpBd" role="lGtFl">
+            <node concept="1jS7UI" id="3DzEEzMnpBe" role="1jS7UE">
+              <property role="1jS7UH" value="ce8ef08b9c42b53ab8c44902626a3d07" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="3DzEEzMnpBf" role="3eYheP">
+            <property role="3ZUXHS" value="1495773792461" />
+            <property role="3ZUYiW" value="NEATdemo" />
+            <property role="eaKhh" value="failed" />
+          </node>
+        </node>
+        <node concept="3e3F8N" id="3DzEEzMnpC0" role="hYxDS">
+          <property role="3u04_E" value="10" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+          <ref role="9I8ot" node="3DzEEzMnn_y" resolve="Testing2" />
+          <node concept="3hIKbI" id="3DzEEzMnpC1" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3hIKbD" node="7UBUYoGZCPC" />
+          </node>
+          <node concept="3KA0h5" id="3DzEEzMnpC2" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3KA0h0" node="3gufdqYR0tO" />
+          </node>
+          <node concept="3OUPuK" id="3DzEEzMnpC3" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="3DzEEzMnpC4" role="3uutUd">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3b6qkQ" id="3DzEEzMnpC5" role="3V7RWR">
+              <property role="$nhwW" value="0.6375" />
+            </node>
+          </node>
+          <node concept="2$njN2" id="3DzEEzMnpC6" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="3DzEEzMnpC7" role="3V7RWR">
+              <property role="$nhwW" value="0.75" />
+            </node>
+          </node>
+          <node concept="2leUMr" id="3DzEEzMnpC8" role="lGtFl">
+            <node concept="1jS7UI" id="3DzEEzMnpC9" role="1jS7UE">
+              <property role="1jS7UH" value="53364f08ef4493f3179370bdd6f99626" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="3DzEEzMnpCa" role="3eYheP">
+            <property role="3ZUXHS" value="1495773793368" />
+            <property role="3ZUYiW" value="NEATdemo" />
+            <property role="eaKhh" value="success" />
+          </node>
+        </node>
+        <node concept="3e3F8N" id="3DzEEzMnpD6" role="hYxDS">
+          <property role="3u04_E" value="10" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+          <ref role="9I8ot" node="3DzEEzMnn_y" resolve="Testing2" />
+          <node concept="3hIKbI" id="3DzEEzMnpD7" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="false" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3hIKbD" node="7UBUYoGZCPC" />
+          </node>
+          <node concept="3KA0h5" id="3DzEEzMnpD8" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="false" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3KA0h0" node="3gufdqYR0tO" />
+          </node>
+          <node concept="3OUPuK" id="3DzEEzMnpD9" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="3DzEEzMnpDa" role="3uutUd">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3b6qkQ" id="3DzEEzMnpDb" role="3V7RWR">
+              <property role="$nhwW" value="0.31875" />
+            </node>
+          </node>
+          <node concept="2$njN2" id="3DzEEzMnpDc" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="3DzEEzMnpDd" role="3V7RWR">
+              <property role="$nhwW" value="0.375" />
+            </node>
+          </node>
+          <node concept="2leUMr" id="3DzEEzMnpDe" role="lGtFl">
+            <node concept="1jS7UI" id="3DzEEzMnpDf" role="1jS7UE">
+              <property role="1jS7UH" value="c68c64c13e1d23b0cee71eafd2a7b120" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="3DzEEzMnpDg" role="3eYheP">
+            <property role="3ZUXHS" value="1495773794326" />
+            <property role="3ZUYiW" value="NEATdemo" />
+            <property role="eaKhh" value="failed" />
+          </node>
+        </node>
+        <node concept="3e3F8N" id="3DzEEzMnpEn" role="hYxDS">
+          <property role="3u04_E" value="10" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+          <ref role="9I8ot" node="3DzEEzMnn_y" resolve="Testing2" />
+          <node concept="3hIKbI" id="3DzEEzMnpEo" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3hIKbD" node="7UBUYoGZCPC" />
+          </node>
+          <node concept="3KA0h5" id="3DzEEzMnpEp" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3KA0h0" node="3gufdqYR0tO" />
+          </node>
+          <node concept="3OUPuK" id="3DzEEzMnpEq" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="3DzEEzMnpEr" role="3uutUd">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3b6qkQ" id="3DzEEzMnpEs" role="3V7RWR">
+              <property role="$nhwW" value="0.47812" />
+            </node>
+          </node>
+          <node concept="2$njN2" id="3DzEEzMnpEt" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="3DzEEzMnpEu" role="3V7RWR">
+              <property role="$nhwW" value="0.5625" />
+            </node>
+          </node>
+          <node concept="2leUMr" id="3DzEEzMnpEv" role="lGtFl">
+            <node concept="1jS7UI" id="3DzEEzMnpEw" role="1jS7UE">
+              <property role="1jS7UH" value="f8298692a224215e7f2d55bf3a616f5e" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="3DzEEzMnpEx" role="3eYheP">
+            <property role="3ZUXHS" value="1495773795250" />
+            <property role="3ZUYiW" value="NEATdemo" />
+            <property role="eaKhh" value="success" />
+          </node>
+        </node>
+        <node concept="3e3F8N" id="3DzEEzMnpFN" role="hYxDS">
+          <property role="3u04_E" value="10" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+          <ref role="9I8ot" node="3DzEEzMnn_y" resolve="Testing2" />
+          <node concept="3hIKbI" id="3DzEEzMnpFO" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="false" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3hIKbD" node="7UBUYoGZCPC" />
+          </node>
+          <node concept="3KA0h5" id="3DzEEzMnpFP" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="false" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3KA0h0" node="3gufdqYR0tO" />
+          </node>
+          <node concept="3OUPuK" id="3DzEEzMnpFQ" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="3DzEEzMnpFR" role="3uutUd">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3b6qkQ" id="3DzEEzMnpFS" role="3V7RWR">
+              <property role="$nhwW" value="0.39844" />
+            </node>
+          </node>
+          <node concept="2$njN2" id="3DzEEzMnpFT" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="3DzEEzMnpFU" role="3V7RWR">
+              <property role="$nhwW" value="0.46875" />
+            </node>
+          </node>
+          <node concept="2leUMr" id="3DzEEzMnpFV" role="lGtFl">
+            <node concept="1jS7UI" id="3DzEEzMnpFW" role="1jS7UE">
+              <property role="1jS7UH" value="7a447a71408750d25cb99abbdc2564a4" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="3DzEEzMnpFX" role="3eYheP">
+            <property role="3ZUXHS" value="1495773796184" />
+            <property role="3ZUYiW" value="NEATdemo" />
+            <property role="eaKhh" value="failed" />
+          </node>
+        </node>
+        <node concept="3e3F8N" id="3DzEEzMnpHq" role="hYxDS">
+          <property role="3u04_E" value="10" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+          <ref role="9I8ot" node="3DzEEzMnn_y" resolve="Testing2" />
+          <node concept="3hIKbI" id="3DzEEzMnpHr" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3hIKbD" node="7UBUYoGZCPC" />
+          </node>
+          <node concept="3KA0h5" id="3DzEEzMnpHs" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3KA0h0" node="3gufdqYR0tO" />
+          </node>
+          <node concept="3OUPuK" id="3DzEEzMnpHt" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="3DzEEzMnpHu" role="3uutUd">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3b6qkQ" id="3DzEEzMnpHv" role="3V7RWR">
+              <property role="$nhwW" value="0.43828" />
+            </node>
+          </node>
+          <node concept="2$njN2" id="3DzEEzMnpHw" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="3DzEEzMnpHx" role="3V7RWR">
+              <property role="$nhwW" value="0.515625" />
+            </node>
+          </node>
+          <node concept="2leUMr" id="3DzEEzMnpHy" role="lGtFl">
+            <node concept="1jS7UI" id="3DzEEzMnpHz" role="1jS7UE">
+              <property role="1jS7UH" value="115edb3bcf63fae12f70bb30ba4d7b29" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="3DzEEzMnpH$" role="3eYheP">
+            <property role="3ZUXHS" value="1495773797129" />
+            <property role="3ZUYiW" value="NEATdemo" />
+            <property role="eaKhh" value="success" />
+          </node>
+        </node>
+        <node concept="3e3F8N" id="3DzEEzMnpJc" role="hYxDS">
+          <property role="3u04_E" value="10" />
+          <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+          <property role="2P4i$1" value="true" />
+          <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+          <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+          <ref role="9I8ot" node="3DzEEzMnn_y" resolve="Testing2" />
+          <node concept="3hIKbI" id="3DzEEzMnpJd" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3hIKbD" node="7UBUYoGZCPC" />
+          </node>
+          <node concept="3KA0h5" id="3DzEEzMnpJe" role="3hIK18">
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <property role="3KPFLx" value="1" />
+            <ref role="3KA0h0" node="3gufdqYR0tO" />
+          </node>
+          <node concept="3OUPuK" id="3DzEEzMnpJf" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="3OUP0O" node="3gufdqYRdnI" />
+            <node concept="3TlMh9" id="3DzEEzMnpJg" role="3uutUd">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3b6qkQ" id="3DzEEzMnpJh" role="3V7RWR">
+              <property role="$nhwW" value="0.41836" />
+            </node>
+          </node>
+          <node concept="2$njN2" id="3DzEEzMnpJi" role="3hIK18">
+            <property role="3KPFLx" value="1" />
+            <property role="3KBtP8" value="true" />
+            <property role="3KBtPb" value="true" />
+            <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+            <node concept="3b6qkQ" id="3DzEEzMnpJj" role="3V7RWR">
+              <property role="$nhwW" value="0.4921875" />
+            </node>
+          </node>
+          <node concept="2leUMr" id="3DzEEzMnpJk" role="lGtFl">
+            <node concept="1jS7UI" id="3DzEEzMnpJl" role="1jS7UE">
+              <property role="1jS7UH" value="8d75c0bccf91df01362afc8ac244a49e" />
+            </node>
+          </node>
+          <node concept="3eYjYQ" id="3DzEEzMnpJm" role="3eYheP">
+            <property role="3ZUXHS" value="1495773798077" />
+            <property role="3ZUYiW" value="NEATdemo" />
+            <property role="eaKhh" value="success" />
+          </node>
+        </node>
+        <node concept="3eYjYQ" id="3DzEEzMnpL7" role="3eYheP">
+          <property role="3ZUXHS" value="1495773798077" />
           <property role="3ZUYiW" value="NEATdemo" />
           <property role="eaKhh" value="failed" />
           <property role="gvzWt" value="60" />
         </node>
       </node>
     </node>
+    <node concept="3fbQ3u" id="7H4HPFQG$m_" role="3fbPIo">
+      <property role="2DRQuN" value="1494838825622" />
+      <property role="2DXwbs" value="NEATdemo" />
+      <property role="1ylvJX" value="TestingHL" />
+      <property role="TrG5h" value="TestingHL" />
+      <node concept="1K7B1z" id="7H4HPFQG$mA" role="22Mr8z">
+        <node concept="eaKiz" id="7H4HPFQG$mB" role="eaKbh">
+          <property role="3ZUXHT" value="1495776091655" />
+          <property role="3ZUYiX" value="NEATdemo" />
+          <property role="eaKhi" value="success" />
+          <node concept="OjmMv" id="7H4HPFQG$mC" role="eaKhv">
+            <node concept="19SGf9" id="7H4HPFQG$mD" role="OjmMu">
+              <node concept="19SUe$" id="7H4HPFQG$mE" role="19SJt6" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="GmGrk" id="7H4HPFQG$mF" role="GmGcz">
+        <node concept="1_0LV8" id="7H4HPFQG$mG" role="1_0VJ0">
+          <node concept="19SGf9" id="7H4HPFQG$mH" role="1_0LWR">
+            <node concept="19SUe$" id="7H4HPFQG$mI" role="19SJt6">
+              <property role="19SUeA" value="HLでテスト" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="Idoat" id="7H4HPFQG$mJ" role="3faCKd">
+        <property role="3u04_E" value="10" />
+        <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+        <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+        <node concept="IaViD" id="3DzEEzMn94w" role="lGtFl">
+          <property role="IaT$I" value="true" />
+        </node>
+        <node concept="3ebvqV" id="7H4HPFQG$mS" role="lGtFl">
+          <ref role="3fKOro" node="7H4HPFQG$m_" resolve="TestingHL" />
+        </node>
+        <node concept="2leUMr" id="7H4HPFQG$mT" role="lGtFl">
+          <node concept="1jS7UI" id="7H4HPFQG$mU" role="1jS7UE">
+            <property role="1jS7UH" value="4eacd2362bd76a36dd3df821b3822856" />
+          </node>
+        </node>
+        <node concept="2tiXWW" id="3DzEEzMn9Ci" role="2tiYZb">
+          <ref role="2tiXWX" node="7H4HPFQG$Rg" resolve="MapDA2Valiables" />
+        </node>
+        <node concept="3hIKbI" id="3DzEEzMnK$l" role="3hIK18">
+          <property role="3KBtP8" value="true" />
+          <property role="3KBtPb" value="true" />
+          <property role="3KPFLx" value="1" />
+          <ref role="3hIKbD" node="7UBUYoGZCPC" />
+        </node>
+        <node concept="3KA0h5" id="3DzEEzMnK$m" role="3hIK18">
+          <property role="3KBtP8" value="true" />
+          <property role="3KBtPb" value="true" />
+          <property role="3KPFLx" value="1" />
+          <ref role="3KA0h0" node="3gufdqYR0tO" />
+        </node>
+        <node concept="2ugPDg" id="3DzEEzMnK_9" role="3hIK18">
+          <property role="3KPFLx" value="1" />
+          <property role="3KBtP8" value="true" />
+          <property role="3KBtPb" value="true" />
+          <ref role="2ugPDj" node="3DzEEzMnALr" resolve="enforce_3" />
+        </node>
+        <node concept="3OUPuK" id="3DzEEzMnK_a" role="3hIK18">
+          <property role="3KPFLx" value="1" />
+          <property role="3KBtP8" value="true" />
+          <property role="3KBtPb" value="true" />
+          <ref role="3OUP0O" node="3gufdqYRdnI" />
+          <node concept="3TlMh9" id="3DzEEzMnK_b" role="3uutUd">
+            <property role="2hmy$m" value="1" />
+          </node>
+          <node concept="3b6qkQ" id="3DzEEzMnL8v" role="3V7RWR">
+            <property role="$nhwW" value="0.83442" />
+          </node>
+        </node>
+        <node concept="2$njN2" id="3DzEEzMnK_c" role="3hIK18">
+          <property role="3KPFLx" value="1" />
+          <property role="3KBtP8" value="true" />
+          <property role="3KBtPb" value="true" />
+          <ref role="2$njNt" node="3gufdqYQOwv" resolve="opt_speed_factorFromMyTuning" />
+          <node concept="3b6qkQ" id="3DzEEzMnL8w" role="3V7RWR">
+            <property role="$nhwW" value="0.9816655433128564" />
+          </node>
+        </node>
+      </node>
+      <node concept="hYxDO" id="3DzEEzMnL8b" role="3faCKd">
+        <property role="3u04_E" value="10" />
+        <property role="1ES8eQ" value="true" />
+        <property role="TFyiI" value="c5fb99c166e08051d1d36025a6dc908d4217ed4a&#10;" />
+        <ref role="Idojx" node="7UBUYoGZ_9Q" resolve="TestCase" />
+        <ref role="IdoEx" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+        <ref role="9I8ot" node="7H4HPFQG$m_" resolve="TestingHL" />
+        <node concept="2leUMr" id="3DzEEzMnL8c" role="lGtFl">
+          <node concept="1jS7UI" id="3DzEEzMnL8d" role="1jS7UE">
+            <property role="1jS7UH" value="4eacd2362bd76a36dd3df821b3822856" />
+          </node>
+        </node>
+        <node concept="3eYjYQ" id="3DzEEzMnL8e" role="3eYheP">
+          <property role="3ZUXHS" value="1495775845186" />
+          <property role="3ZUYiW" value="NEATdemo" />
+          <property role="eaKhh" value="success" />
+        </node>
+      </node>
+      <node concept="fUyw_" id="3DzEEzMnL9G" role="3faCKd">
+        <node concept="OjmMv" id="3DzEEzMnL9H" role="fUymu">
+          <node concept="19SGf9" id="3DzEEzMnL9I" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMnL9J" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="OjmMv" id="3DzEEzMnL9K" role="fUyBk">
+          <node concept="19SGf9" id="3DzEEzMnL9L" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMnL9M" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="OjmMv" id="3DzEEzMnL9N" role="fUymr">
+          <node concept="19SGf9" id="3DzEEzMnL9O" role="OjmMu">
+            <node concept="19SUe$" id="3DzEEzMnL9P" role="19SJt6" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2f$52y" id="7H4HPFQGySO" role="lGtFl">
+      <node concept="3vAitl" id="7H4HPFQGySP" role="2f$52z">
+        <property role="3ajGZW" value="NEATdemo" />
+        <property role="3ajGZ3" value="H29.05.26 4:12:21" />
+        <property role="19LeSh" value="property_name_1" />
+        <ref role="19LoX1" node="7H4HPFQGrsF" />
+        <node concept="19SGf9" id="7H4HPFQGySQ" role="3ajGZ5">
+          <node concept="19SUe$" id="7H4HPFQGySR" role="19SJt6">
+            <property role="19SUeA" value="GenerateできないときはMappingが最新か確認" />
+          </node>
+        </node>
+      </node>
+      <node concept="3vAitl" id="3DzEEzMnu$_" role="2f$52z">
+        <property role="3ajGZW" value="NEATdemo" />
+        <property role="3ajGZ3" value="H29.05.26 4:48:01" />
+        <property role="19LeSh" value="property_name" />
+        <ref role="19LoX1" node="3DzEEzMn9Ci" />
+        <node concept="19SGf9" id="3DzEEzMnu$A" role="3ajGZ5">
+          <node concept="19SUe$" id="3DzEEzMnu$B" role="19SJt6">
+            <property role="19SUeA" value="ハイレベル要求と紐づける場合は&#10;DAの全RequireがVariablesに&#10;紐づいている必要がある" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
-  <node concept="Io9qx" id="3gufdqYQBdW">
+  <node concept="Io9qy" id="3gufdqYQBdW">
     <property role="TrG5h" value="MappingChunk" />
     <node concept="3GEVxB" id="3gufdqYQBdX" role="3pVyo1">
       <ref role="3GEb4d" node="7UBUYoGZ$ro" resolve="Arch" />
     </node>
-    <node concept="IoyxK" id="3gufdqYQBdY" role="IopOb">
+    <node concept="IoyxL" id="3gufdqYQBdY" role="IopOb">
       <property role="TrG5h" value="Arch_RCCar_mapping" />
-      <ref role="IoyxX" node="7UBUYoGZ$sm" resolve="RCCar" />
+      <ref role="IoyxY" node="7UBUYoGZ$sm" resolve="RCCar" />
       <ref role="IePt1" node="3gufdqYQBe$" resolve="RCCar" />
       <node concept="3Lbr9$" id="3gufdqYQBe7" role="IoZoz">
-        <ref role="3Lbr9H" node="78NQ33Cmqco" resolve="Speedfactor" />
+        <ref role="3Lbr9H" node="78NQ33Cmqco" resolve="SpeedfactorFromWeight" />
         <node concept="27hbsH" id="3gufdqYQBhT" role="3Lbr9w">
           <property role="280tBP" value="false" />
-          <property role="TrG5h" value="Speedfactor" />
+          <property role="TrG5h" value="SpeedfactorFromWeight" />
         </node>
       </node>
       <node concept="3Lbr9$" id="3gufdqYQBe8" role="IoZoz">
@@ -5001,6 +6363,13 @@
         <node concept="27hbsH" id="3gufdqYQBhV" role="3Lbr9w">
           <property role="280tBP" value="false" />
           <property role="TrG5h" value="AngleFactor" />
+        </node>
+      </node>
+      <node concept="3Lbr9$" id="3gufdqYR5lz" role="IoZoz">
+        <ref role="3Lbr9H" node="3gufdqYR4WN" resolve="SpeedFactorFromMyTuning" />
+        <node concept="27hbsH" id="3gufdqYR5pI" role="3Lbr9w">
+          <property role="280tBP" value="false" />
+          <property role="TrG5h" value="SpeedFactorFromMyTuning" />
         </node>
       </node>
       <node concept="I4zWd" id="3gufdqYQBe4" role="IoZoz">
@@ -5137,13 +6506,22 @@
           <ref role="27kMu9" node="78NQ33CmUSM" resolve="val" />
         </node>
       </node>
+      <node concept="IoNUV" id="3gufdqYRpXf" role="IoZoz">
+        <property role="TrG5h" value="SpeedFactor" />
+        <ref role="IoNV4" node="3gufdqYRpXc" resolve="SpeedFactor" />
+        <ref role="I7lGv" node="3gufdqYRpLl" resolve="SpeedFactor" />
+        <node concept="27kMui" id="7H4HPFQGyTl" role="27lDTg">
+          <property role="TrG5h" value="val" />
+          <ref role="27kMu9" node="3gufdqYRrmj" resolve="val" />
+        </node>
+      </node>
     </node>
     <node concept="3GEVxB" id="3gufdqYQBez" role="3pVyo1">
       <ref role="3GEb4d" node="3gufdqYQBey" resolve="RCCar_simulinkModule" />
     </node>
-    <node concept="IoyxK" id="3gufdqYQBe_" role="IopOb">
+    <node concept="IoyxL" id="3gufdqYQBe_" role="IopOb">
       <property role="TrG5h" value="Arch_ReceivingMachine_mapping" />
-      <ref role="IoyxX" node="78NQ33CmqHh" resolve="ReceivingMachine" />
+      <ref role="IoyxY" node="78NQ33CmqHh" resolve="ReceivingMachine" />
       <ref role="IePt1" node="3gufdqYQBeK" resolve="ReceivingMachine" />
       <node concept="IoNUV" id="3gufdqYQBeA" role="IoZoz">
         <property role="TrG5h" value="OrderSpeedIN" />
@@ -5185,9 +6563,9 @@
     <node concept="3GEVxB" id="3gufdqYQBeJ" role="3pVyo1">
       <ref role="3GEb4d" node="3gufdqYQBeI" resolve="ReceivingMachine_simulinkModule" />
     </node>
-    <node concept="IoyxK" id="3gufdqYQBeL" role="IopOb">
+    <node concept="IoyxL" id="3gufdqYQBeL" role="IopOb">
       <property role="TrG5h" value="Arch_Motor_mapping" />
-      <ref role="IoyxX" node="7UBUYoGZ$sO" resolve="Motor" />
+      <ref role="IoyxY" node="7UBUYoGZ$sO" resolve="Motor" />
       <ref role="IePt1" node="3gufdqYQBeU" resolve="Motor" />
       <node concept="IoNUV" id="3gufdqYQBeM" role="IoZoz">
         <property role="TrG5h" value="OrderSpeed" />
@@ -5220,9 +6598,9 @@
     <node concept="3GEVxB" id="3gufdqYQBeT" role="3pVyo1">
       <ref role="3GEb4d" node="3gufdqYQBeS" resolve="Motor_simulinkModule" />
     </node>
-    <node concept="IoyxK" id="3gufdqYQBeV" role="IopOb">
+    <node concept="IoyxL" id="3gufdqYQBeV" role="IopOb">
       <property role="TrG5h" value="Arch_SteeringServo_mapping" />
-      <ref role="IoyxX" node="78NQ33CmqdU" resolve="SteeringServo" />
+      <ref role="IoyxY" node="78NQ33CmqdU" resolve="SteeringServo" />
       <ref role="IePt1" node="3gufdqYQBf4" resolve="SteeringServo" />
       <node concept="IoNUV" id="3gufdqYQBeW" role="IoZoz">
         <property role="TrG5h" value="OrderAngle" />
@@ -5255,6 +6633,30 @@
     <node concept="3GEVxB" id="3gufdqYQBf3" role="3pVyo1">
       <ref role="3GEb4d" node="3gufdqYQBf2" resolve="SteeringServo_simulinkModule" />
     </node>
+    <node concept="2f$52y" id="3gufdqYR5pL" role="lGtFl">
+      <node concept="3vAitl" id="3gufdqYR5pM" role="2f$52z">
+        <property role="3ajGZW" value="NEATdemo" />
+        <property role="3ajGZ3" value="H29.05.26 2:41:58" />
+        <property role="19LeSh" value="property_name" />
+        <ref role="19LoX1" node="3gufdqYQBhT" resolve="SpeedfactorFromWeight" />
+        <node concept="19SGf9" id="3gufdqYR5pN" role="3ajGZ5">
+          <node concept="19SUe$" id="3gufdqYR5pO" role="19SJt6">
+            <property role="19SUeA" value="SimulinkモデルのConstantとマッピングするには&#10;ここでCtrl + SpaceでVariableを選択&#10;ブランクスペースにConstantのConstant valueで設定した名前を手入力する。" />
+          </node>
+        </node>
+      </node>
+      <node concept="3vAitl" id="7H4HPFQGyT6" role="2f$52z">
+        <property role="3ajGZW" value="NEATdemo" />
+        <property role="3ajGZ3" value="H29.05.26 4:12:56" />
+        <property role="19LeSh" value="property_name" />
+        <ref role="19LoX1" node="3gufdqYQBdY" resolve="Arch_RCCar_mapping" />
+        <node concept="19SGf9" id="7H4HPFQGyT7" role="3ajGZ5">
+          <node concept="19SUe$" id="7H4HPFQGyT8" role="19SJt6">
+            <property role="19SUeA" value="ここにUpdateとあったら情報が古いので&#10;Update Mappingしないと&#10;テストハーネスを作れない" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2IDFuY" id="3gufdqYQBey">
     <property role="TrG5h" value="RCCar_simulinkModule" />
@@ -5265,49 +6667,77 @@
       <property role="TrG5h" value="RCCar" />
       <property role="7Ui6j" value="false" />
       <property role="1VUqhc" value="$bdroot" />
-      <node concept="2Wji0K" id="3gufdqYQBfw" role="2WjepK">
+      <property role="3DFghd" value="false" />
+      <node concept="2Wji0K" id="3gufdqYR5jm" role="2WjepK">
         <property role="29ooIb" value="true" />
-        <node concept="2bW3YS" id="3gufdqYQBfx" role="2bZDx6">
+        <node concept="2bW3YS" id="3gufdqYR5jn" role="2bZDx6">
+          <ref role="2bW3GS" node="3gufdqYQBf_" resolve="OrderSpeedOut" />
           <ref role="2bW3GX" node="3gufdqYQBf6" resolve="ReceivingMachine" />
         </node>
-        <node concept="2bW3YS" id="3gufdqYQBfy" role="2bZDxJ">
+        <node concept="2bW3YS" id="3gufdqYR5jo" role="2bZDxJ">
+          <ref role="2bW3GS" node="3gufdqYQBfC" resolve="OrderSpeed" />
           <ref role="2bW3GX" node="3gufdqYQBf5" resolve="Motor" />
         </node>
       </node>
-      <node concept="2Wji0K" id="3gufdqYQBft" role="2WjepK">
+      <node concept="2Wji0K" id="3gufdqYR5js" role="2WjepK">
         <property role="29ooIb" value="true" />
-        <node concept="2bW3YS" id="3gufdqYQBfu" role="2bZDx6">
+        <node concept="2bW3YS" id="3gufdqYR5jt" role="2bZDx6">
+          <ref role="2bW3GS" node="3gufdqYQBfA" resolve="OrderSteeringAngleOut" />
           <ref role="2bW3GX" node="3gufdqYQBf6" resolve="ReceivingMachine" />
         </node>
-        <node concept="2bW3YS" id="3gufdqYQBfv" role="2bZDxJ">
+        <node concept="2bW3YS" id="3gufdqYR5ju" role="2bZDxJ">
+          <ref role="2bW3GS" node="3gufdqYQBfF" resolve="OrderAngle" />
           <ref role="2bW3GX" node="3gufdqYQBf7" resolve="SteeringServo" />
         </node>
       </node>
-      <node concept="2Wji0N" id="3gufdqYQBfq" role="2WjepK">
+      <node concept="2Wji0N" id="3gufdqYR5jy" role="2WjepK">
         <property role="29ooIb" value="true" />
-        <node concept="1Q6zpF" id="3gufdqYQBfr" role="1Q6EMX">
+        <node concept="1Q6zpF" id="3gufdqYR5jz" role="1Q6EMX">
           <ref role="1Q6ycp" node="3gufdqYQBf9" resolve="OrderSpeed" />
         </node>
-        <node concept="2bW3YS" id="3gufdqYQBfs" role="1Q6EMU">
+        <node concept="2bW3YS" id="3gufdqYR5j$" role="1Q6EMU">
+          <ref role="2bW3GS" node="3gufdqYQBf$" resolve="OrderSpeedIN" />
           <ref role="2bW3GX" node="3gufdqYQBf6" resolve="ReceivingMachine" />
         </node>
       </node>
-      <node concept="2Wji0N" id="3gufdqYQBfm" role="2WjepK">
+      <node concept="2Wji0N" id="3gufdqYR5jC" role="2WjepK">
         <property role="29ooIb" value="true" />
-        <node concept="2bW3YS" id="3gufdqYQBfn" role="1Q6EMX">
+        <node concept="2bW3YS" id="3gufdqYR5jD" role="1Q6EMX">
+          <ref role="2bW3GS" node="3gufdqYQBfD" resolve="ActualSpeed" />
+          <ref role="2bW3GX" node="3gufdqYQBf5" resolve="Motor" />
+        </node>
+        <node concept="1Q6zpF" id="3gufdqYR5jE" role="1Q6EMU">
+          <ref role="1Q6ycp" node="3gufdqYQBfa" resolve="ActualSpeed" />
+        </node>
+      </node>
+      <node concept="2Wji0N" id="3gufdqYR5jI" role="2WjepK">
+        <property role="29ooIb" value="true" />
+        <node concept="1Q6zpF" id="3gufdqYR5jJ" role="1Q6EMX">
+          <ref role="1Q6ycp" node="3gufdqYQBf8" resolve="OrderSteeringAngle" />
+        </node>
+        <node concept="2bW3YS" id="3gufdqYR5jK" role="1Q6EMU">
+          <ref role="2bW3GS" node="3gufdqYQBfz" resolve="OrderSteeringAngleIN" />
+          <ref role="2bW3GX" node="3gufdqYQBf6" resolve="ReceivingMachine" />
+        </node>
+      </node>
+      <node concept="2Wji0N" id="3gufdqYR5jO" role="2WjepK">
+        <property role="29ooIb" value="true" />
+        <node concept="2bW3YS" id="3gufdqYR5jP" role="1Q6EMX">
+          <ref role="2bW3GS" node="3gufdqYQBfG" resolve="ActualAngle" />
           <ref role="2bW3GX" node="3gufdqYQBf7" resolve="SteeringServo" />
         </node>
-        <node concept="1Q6zpF" id="3gufdqYQBfo" role="1Q6EMU">
+        <node concept="1Q6zpF" id="3gufdqYR5jQ" role="1Q6EMU">
           <ref role="1Q6ycp" node="3gufdqYQBfb" resolve="ActualSteeringAngle" />
         </node>
       </node>
-      <node concept="2Wji0N" id="3gufdqYQBfi" role="2WjepK">
+      <node concept="1nrY8R" id="3gufdqYR5jU" role="2WjepK">
         <property role="29ooIb" value="true" />
-        <node concept="2bW3YS" id="3gufdqYQBfj" role="1Q6EMX">
+        <node concept="2bW3YS" id="3gufdqYR5jV" role="1nrY8O">
+          <ref role="2bW3GS" node="3gufdqYQBfD" resolve="ActualSpeed" />
           <ref role="2bW3GX" node="3gufdqYQBf5" resolve="Motor" />
         </node>
-        <node concept="1Q6zpF" id="3gufdqYQBfk" role="1Q6EMU">
-          <ref role="1Q6ycp" node="3gufdqYQBfa" resolve="ActualSpeed" />
+        <node concept="1Q6zpF" id="3gufdqYR5jW" role="1nrY8N">
+          <ref role="1Q6ycp" node="3gufdqYQBfc" resolve="MovingDistance" />
         </node>
       </node>
       <node concept="H9uRN" id="3gufdqYQBf5" role="1VNXAK">
@@ -5363,14 +6793,12 @@
         <property role="TrG5h" value="MovingDistance" />
         <property role="3zLh$k" value="Inherit: auto" />
       </node>
-      <node concept="2Wji0N" id="3gufdqYQBfe" role="2WjepK">
+      <node concept="3PjMql" id="3gufdqYRpLl" role="3PntMi">
         <property role="29ooIb" value="true" />
-        <node concept="1Q6zpF" id="3gufdqYQBff" role="1Q6EMX">
-          <ref role="1Q6ycp" node="3gufdqYQBf8" resolve="OrderSteeringAngle" />
-        </node>
-        <node concept="2bW3YS" id="3gufdqYQBfg" role="1Q6EMU">
-          <ref role="2bW3GX" node="3gufdqYQBf6" resolve="ReceivingMachine" />
-        </node>
+        <property role="2AA3Jj" value="4" />
+        <property role="3PjFpb" value="false" />
+        <property role="TrG5h" value="SpeedFactor" />
+        <property role="3zLh$k" value="Inherit: auto" />
       </node>
     </node>
   </node>
@@ -5474,6 +6902,89 @@
         <property role="3PjFpb" value="false" />
         <property role="TrG5h" value="ActualAngle" />
         <property role="3zLh$k" value="Inherit: auto" />
+      </node>
+    </node>
+  </node>
+  <node concept="Io9qx" id="7H4HPFQG$Rc">
+    <property role="TrG5h" value="MapDA2Valiables" />
+    <node concept="IoyxK" id="7H4HPFQG$Rg" role="1HCUg$">
+      <property role="TrG5h" value="MapDA2Valiables" />
+      <ref role="IoyxX" node="2vNYUVYXb2A" resolve="Req" />
+      <ref role="1HBrPQ" node="7UBUYoGZ$sm" resolve="RCCar" />
+      <node concept="1HB$qE" id="7H4HPFQG$Se" role="1HBrKT">
+        <ref role="1HAgGS" node="7UBUYoGZ$$Y" resolve="OrderSpeed" />
+        <node concept="2tDfbH" id="7H4HPFQG$Sf" role="2tDiQM">
+          <ref role="2tDfbJ" node="7UBUYoGZ$ry" resolve="val" />
+        </node>
+      </node>
+      <node concept="1HB$qE" id="7H4HPFQG$Sg" role="1HBrKT">
+        <ref role="1HAgGS" node="78NQ33CmpYL" resolve="OrderSteeringAngle" />
+        <node concept="2tDfbH" id="7H4HPFQG$Sh" role="2tDiQM">
+          <ref role="2tDfbJ" node="78NQ33CmpX2" resolve="val" />
+        </node>
+      </node>
+      <node concept="1HB$qE" id="7H4HPFQG$Si" role="1HBrKT">
+        <ref role="1HAgGS" node="7UBUYoGZ$_1" resolve="ActualSpeed" />
+        <node concept="2tDfbH" id="7H4HPFQG$Sj" role="2tDiQM">
+          <ref role="2tDfbJ" node="7UBUYoGZ$ry" resolve="val" />
+          <ref role="2tDfbI" node="3DzEEzMnxkt" resolve="速さ" />
+        </node>
+      </node>
+      <node concept="1HB$qE" id="7H4HPFQG$Sk" role="1HBrKT">
+        <ref role="1HAgGS" node="78NQ33Cmq3L" resolve="ActualSteeringAngle" />
+        <node concept="2tDfbH" id="7H4HPFQG$Sl" role="2tDiQM">
+          <ref role="2tDfbJ" node="78NQ33CmpX2" resolve="val" />
+          <ref role="2tDfbI" node="78NQ33Cmlfp" resolve="ステアリング角度" />
+        </node>
+      </node>
+      <node concept="1HB$qE" id="7H4HPFQG$Sm" role="1HBrKT">
+        <ref role="1HAgGS" node="78NQ33CmUNT" resolve="MovingDistance" />
+        <node concept="2tDfbH" id="7H4HPFQG$Sn" role="2tDiQM">
+          <ref role="2tDfbJ" node="78NQ33CmUSM" resolve="val" />
+          <ref role="2tDfbI" node="3DzEEzMnbMs" resolve="移動距離" />
+        </node>
+      </node>
+      <node concept="1HB$qE" id="7H4HPFQG$So" role="1HBrKT">
+        <ref role="1HAgGS" node="3gufdqYRpXc" resolve="SpeedFactor" />
+        <node concept="2tDfbH" id="7H4HPFQG$Sp" role="2tDiQM">
+          <ref role="2tDfbJ" node="3gufdqYRrmj" resolve="val" />
+          <ref role="2tDfbI" node="3DzEEzMnb8s" resolve="トータルでの速さへの影響度" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="Idr$i" id="7H4HPFQG$Vm">
+    <property role="TrG5h" value="ProductLine" />
+    <node concept="Id4hS" id="7H4HPFQG$VQ" role="Idr$j">
+      <property role="TrG5h" value="PL" />
+      <node concept="28I2Iu" id="7H4HPFQG$VR" role="Id4hT">
+        <node concept="Idvup" id="7H4HPFQG$VS" role="Id4hL" />
+        <node concept="Id4hK" id="7H4HPFQG$W0" role="Id4hQ">
+          <property role="TrG5h" value="Avante" />
+        </node>
+        <node concept="Id4hK" id="7H4HPFQG$W3" role="Id4hQ">
+          <property role="TrG5h" value="Hornet" />
+        </node>
+      </node>
+    </node>
+    <node concept="Id4hE" id="7H4HPFQG$Wl" role="Idr$j">
+      <property role="TrG5h" value="CaseAvante" />
+      <ref role="Id4hC" node="7H4HPFQG$VQ" resolve="PL" />
+      <node concept="Id4hG" id="7H4HPFQG$WB" role="Id4hF">
+        <ref role="Id4hN" node="7H4HPFQG$VR" resolve="PL_root" />
+        <node concept="Id4hG" id="7H4HPFQG$WH" role="Id4hH">
+          <ref role="Id4hN" node="7H4HPFQG$W0" resolve="Avante" />
+        </node>
+      </node>
+    </node>
+    <node concept="Id4hE" id="7H4HPFQG$X3" role="Idr$j">
+      <property role="TrG5h" value="CaseHornet" />
+      <ref role="Id4hC" node="7H4HPFQG$VQ" resolve="PL" />
+      <node concept="Id4hG" id="7H4HPFQG$Xr" role="Id4hF">
+        <ref role="Id4hN" node="7H4HPFQG$VR" resolve="PL_root" />
+        <node concept="Id4hG" id="7H4HPFQG$Xu" role="Id4hH">
+          <ref role="Id4hN" node="7H4HPFQG$W3" resolve="Hornet" />
+        </node>
       </node>
     </node>
   </node>
