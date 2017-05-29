@@ -95,7 +95,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -103,7 +103,6 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -111,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSpace" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestSpace" pinned="false" current-in-tab="true">
         <entry file="mps://node://Mini4ku/Mini4Ku/TestSpace">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -154,7 +153,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -162,7 +161,6 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -170,19 +168,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCase" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestCase" pinned="false" current-in-tab="false">
         <entry file="mps://node://Mini4ku/Mini4Ku/TestCase">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="119">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="173">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="209" />
-                    <property name="caretXRelative" value="32" />
+                    <property name="caretX" value="113" />
+                    <property name="caretXRelative" value="8" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" />
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/8229158648704357330" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -212,18 +210,13 @@
                 </foldable>
                 <restoreAlways>
                   <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="refNodeList_setupSteps" cellNumber="0" isInList="false">
-                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
-                    </cellIdElement>
-                  </collapsedElement>
-                  <collapsedElement isCollapsed="false">
                     <cellIdElement cellId="Collection_g8b7hx_a" cellNumber="0" isInList="false">
                       <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
                     </cellIdElement>
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -231,7 +224,6 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -277,7 +269,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -285,7 +277,6 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -381,7 +372,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -389,7 +380,6 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -418,7 +408,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -426,7 +416,6 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -471,7 +460,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -479,7 +468,6 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -530,7 +518,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -538,7 +526,6 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -566,7 +553,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -574,7 +561,6 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -615,7 +601,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -623,7 +609,6 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -650,8 +635,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="254" />
-    <option name="y" value="-2" />
+    <option name="x" value="559" />
+    <option name="y" value="-3" />
     <option name="width" value="1392" />
     <option name="height" value="861" />
   </component>
@@ -1078,7 +1063,7 @@
     <configuration>C:\Users\Takiya\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="254" y="-2" width="1392" height="861" extended-state="0" />
+    <frame x="559" y="-3" width="1392" height="861" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3673,7 +3658,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -3681,7 +3666,6 @@
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
@@ -3725,7 +3709,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -3733,7 +3717,6 @@
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
@@ -3772,7 +3755,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -3780,7 +3763,6 @@
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
@@ -3807,7 +3789,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -3815,7 +3797,6 @@
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
@@ -3909,7 +3890,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -3917,7 +3898,6 @@
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
@@ -3960,7 +3940,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -3968,7 +3948,6 @@
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
@@ -4017,7 +3996,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4025,7 +4004,67 @@
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Mini4ku/Mini4Ku/TestCase">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="173">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="113" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/8229158648704357330" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_setupSteps" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_g8b7hx_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_nczv4m_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/4076713794479196204" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469494" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_g8b7hx_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
@@ -4084,7 +4123,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4092,7 +4131,6 @@
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
@@ -4141,7 +4179,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965418463" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4149,74 +4187,6 @@
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Mini4ku/Mini4Ku/TestCase">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="119">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="209" />
-                <property name="caretXRelative" value="32" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="refNodeList_setupSteps" cellNumber="0" isInList="false">
-                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_g8b7hx_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_nczv4m_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/4076713794479196204" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="refNodeList_variables" cellNumber="0" isInList="false">
-                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469494" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
-            <restoreAlways>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="refNodeList_setupSteps" cellNumber="0" isInList="false">
-                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_g8b7hx_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/9126522543719469686" />
-                </cellIdElement>
-              </collapsedElement>
-            </restoreAlways>
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/848609558965421577" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="info.engineeredmechatronics.dri.req.editor.driHints.enable_math2lang" />
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
