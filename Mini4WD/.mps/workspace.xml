@@ -47,14 +47,15 @@
         <entry file="mps://node://Mini4ku/Mini4Ku/Testing">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="423">
+              <memento saveSessionState="false" viewPositionX="108" viewPositionY="513">
                 <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretX" value="0" />
-                    <property name="caretXRelative" value="-39" />
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="424" />
+                    <property name="caretXRelative" value="20" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Custom_6qawm_b0" cellNumber="0" isInList="false">
-                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" />
+                    <cellInfo cellId="property_checkedBy" cellNumber="0" isInList="false">
+                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -77,15 +78,9 @@
                     </cellIdElement>
                   </collapsedElement>
                 </foldable>
-                <restoreAlways>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_ivincg_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028573" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </restoreAlways>
+                <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -139,7 +134,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -175,7 +170,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -229,7 +224,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -282,7 +277,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -341,7 +336,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -410,7 +405,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -458,7 +453,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -506,7 +501,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -543,7 +538,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -578,8 +573,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="443" />
-    <option name="y" value="156" />
+    <option name="x" value="294" />
+    <option name="y" value="160" />
     <option name="width" value="1608" />
     <option name="height" value="982" />
   </component>
@@ -851,6 +846,12 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="$PROJECT_DIR$/solutions/Mini4ku/Mini4ku.msd" />
               <option name="myItemType" value="" />
@@ -889,12 +890,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="$PROJECT_DIR$/solutions/Mini4ku/Mini4ku.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -986,8 +981,8 @@
     <configuration>C:\Users\NEATdemo\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="443" y="156" width="1608" height="982" extended-state="0" />
-    <editor active="true" />
+    <frame x="294" y="160" width="1608" height="982" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4146,7 +4141,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4181,7 +4176,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4227,7 +4222,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4273,7 +4268,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4330,7 +4325,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4381,7 +4376,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4433,7 +4428,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4467,7 +4462,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4519,7 +4514,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -4537,14 +4532,15 @@
     <entry file="mps://node://Mini4ku/Mini4Ku/Testing">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="423">
+          <memento saveSessionState="false" viewPositionX="108" viewPositionY="513">
             <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretX" value="0" />
-                <property name="caretXRelative" value="-39" />
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="424" />
+                <property name="caretXRelative" value="20" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Custom_6qawm_b0" cellNumber="0" isInList="false">
-                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" />
+                <cellInfo cellId="property_checkedBy" cellNumber="0" isInList="false">
+                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -4567,15 +4563,9 @@
                 </cellIdElement>
               </collapsedElement>
             </foldable>
-            <restoreAlways>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_ivincg_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028573" />
-                </cellIdElement>
-              </collapsedElement>
-            </restoreAlways>
+            <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/3024433106342028574" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:27d8fb0b-ce4b-402e-9bfa-67209bc79168(Mini4Ku)/2501400191878669229" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
